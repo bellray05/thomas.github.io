@@ -162,7 +162,7 @@ h2 .vertical{
     margin-left: 20vw;
     margin-right: 20vw;
 }
-h2.vertical{
+.vertical{
     font-family: "helvetica";
     font:#010004;
     font-size: 8vh;
