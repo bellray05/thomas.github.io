@@ -153,7 +153,8 @@ h2 .vertical{
     width: 50vw;
     padding-left: 15vw;
     color:blue;
-    top: 75vh;
+    top: 67vh;
+    
 }
 .piclayer{
     float: right;
@@ -308,6 +309,7 @@ body {
     font-size: 20px;
     width: 50vw;
     padding-left: 30px;
+    padding-bottom: 10px;
     top: 70vh;
     width: 90%;
 }
