@@ -299,18 +299,29 @@ body {
     border-bottom: none;
     }}
     @media (max-width: 768px){
-        h1{
-            font-size: 20px;
-        }
-        h2{
-            font-size: 15px;
-        }
-        .about{
-            width: 500px;
-            margin-left: 10px;
-            margin-right: 10px;
-            padding-left: none;
-        }
+ h1{
+     font-size: 14vw;
+    padding-top: 15vh;
+    } 
+.about{
+    position: absolute;
+    font-size: 20px;
+    width: 50vw;
+    padding-left: 30px;
+    top: 70vh;
+    width: 90%;
+}
+.piclayer{
+    float: left;
+    position: relative;
+}
+.vertical{
+    font-size: 8vh;
+    position: absolute;
+    top: 15vw;
+    -webkit-transform:  translateX(-110%) rotate(-90deg); 
+    transform-origin: right;
+}
     }
 
 .newEquipList {
