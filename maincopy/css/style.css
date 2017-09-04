@@ -1,0 +1,355 @@
+body{
+  background:#ffff;
+}	
+
+/* foreground */
+div#parallax-bg-1{
+	position: fixed;
+	width: 1200px;
+	top: 0;
+	left: 50%; 
+	margin-left: -600px; 
+	z-index: 1;
+}
+/* background middle layer*/
+div#parallax-bg-2{
+	position: fixed;
+	width: 1200px;
+	top: 0;
+	left: 50%; 
+	margin-left: -600px; 
+	z-index: 2;
+}
+/* background layer */
+div#parallax-bg-3{
+        position: relative;
+		display: block;
+		padding: 50px -20px 2px 9px !important;
+		text-decoration: none;
+		color: #010004;
+		background: none;
+		font-size: 72px;
+         z-index: 5;
+}
+/* foreground */
+div#parallax-bg-3 div{
+	background-repeat:no-repeat;
+	position:absolute;
+	display:block;
+	overflow:hidden;
+    height: 999vh;
+}
+div#bg-3-1{
+	background:none;
+	width:529px;
+	height:757px;
+	top:-100px;
+	right:100px;
+}
+div#bg-3-2{
+	background:none;
+	width:80%;
+	height:auto;
+	top:1050px;
+	right:70px;
+}
+div#bg-3-3{
+	background:none;
+	width:446px;
+	height:713px;
+	top:1800px;
+	right:140px;
+}
+div#bg-3-4{
+	background:none;
+	width:1104px;
+	height:684px;
+	top:2800px;
+	right:0px;
+}
+/* middle layer clouds */
+div#parallax-bg-2 div{
+	background:none;
+	background-repeat:no-repeat;
+	position:absolute;
+	display:block;
+	width:488px;
+	height:138px;
+	overflow:hidden;
+}
+
+div#bg-2-1{
+	top:100px;
+	left:-310px;
+}
+div#bg-2-2{
+	top:270px;
+	right:-70px;
+}
+div#bg-2-3{
+	top:870px;
+	left:-300px;
+}
+div#bg-2-4{
+	top:1120px;
+	right:-130px;
+}
+div#bg-2-5{
+	top:1620px;
+	left:140px;
+}
+div#bg-2-6{
+	top:100px;
+	left:100px;
+}
+
+
+/*background layer clouds */
+div#parallax-bg-1 div{
+	background-repeat:no-repeat;
+	position:absolute;
+	display:block;
+}
+div#bg-1-1{
+    position:relative;
+    display: block;
+	right: 265px;
+	top:90vh;    
+}
+div#bg-1-2{
+    position: relative;
+    display: block;
+	top:200vh;
+    right: 265px;
+}
+div#bg-1-3{
+	background:none;
+	top:850px;
+	right:-290px;
+}
+div#bg-1-4{
+	background:none;
+	top:1350px;
+	left:200px;
+}
+div#bg-1-5{
+	background:none;
+	top:1200px;
+	left:-200px;
+}
+h1{
+     font-family: "helvetica";
+     font:#010004;
+     font-size: 14vw;
+    padding-top: 15vh;
+    } 
+h2 .vertical{
+}
+.about{
+    position: absolute;
+    font-family: "helvetica";
+    font: #010004;
+    font-size: 18px;
+    width: 50vw;
+    padding-left: 15vw;
+    color:blue;
+    top: 75vh;
+}
+.piclayer{
+    float: right;
+    position: relative;
+    width: 500px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+h2.vertical{
+    font-family: "helvetica";
+    font:#010004;
+    font-size: 8vh;
+    position: absolute;
+    top: 5vw;
+    -webkit-transform:  translateX(-110%) rotate(-90deg); 
+    transform-origin: right;
+}
+.bio img{
+    width: 100%;
+}
+
+/*
+.bio img{
+    width:500px;
+    height:auto;
+    position: relative;
+    top: 0; bottom:0; left:40vw; right:0;
+    margin:auto;
+    padding-left: 1vh;
+    padding-top: -50vh;
+}
+*/
+  .line{
+                       position:fixed;
+                       right: 5%;
+                       top: 1%;
+                        z-index: 100;}
+body {
+   background-color: #fff;
+   font-family: "helvetica";
+   font:#010004;}
+                    
+   .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+}
+
+.sidenav a {
+    padding: 50px 10px 10px 10px;
+    text-decoration: none;
+    font-size: 70px;
+    color: #FFF;
+    display: block;
+    transition: 0.3s;
+
+}
+
+.sidenav a:hover{
+    color: #fff;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+} 
+
+.navigation {
+  list-style: none;
+  margin: 0; 
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  background: #fff;
+  width: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  -webkit-flex-flow: row wrap;
+  /*justify-content: flex-end;*/
+}
+
+.navigation li:first-child {
+  margin-right: auto;
+}
+
+.navigation li:nth-child(5) {
+  margin-right: 70px;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: black;
+}
+
+.navigation a:hover {
+  background: darken(deepskyblue, 2%);
+}
+
+@media all and (max-width: 1200px) {
+  .navigation {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  .navigation {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  
+  .navigation a { 
+    text-align: center; 
+    padding: 10px;
+    border-top: 1px solid rgba(255,255,255,0.3); 
+    border-bottom: 1px solid rgba(0,0,0,0.1); 
+  }
+
+  
+  .navigation li:last-of-type a {
+    border-bottom: none;
+    }}
+    @media (max-width: 768px){
+        h1{
+            font-size: 20px;
+        }
+        h2{
+            font-size: 15px;
+        }
+    }
+
+.newEquipList {
+		background-image: url('http://boydwp.lottmandesign.com/wp-content/uploads/2013/11/newEquipListBG.jpg');
+		width: 500px;
+		height: 250px;
+		}
+	.newEquipList-left, .newEquipList-Right { 
+		height: 1200px;
+		float: left;
+        padding-left: 50px;
+        padding-top: 50px;}
+	#newEquipHover, #newEquipHover-side {
+		position: relative;
+		padding: 50px;
+		border: 0px dotted #999;
+		background: none;
+		margin-bottom: 20px;}
+	#newEquipHover a, #newEquipHover-side a {
+		display: inline;
+		padding: 20px 20px 20px 5px;
+		text-decoration: none;
+		color: black;
+		background: none;
+		font-size: 10vw;}
+	#newEquipHover a:hover, #newEquipHover-side a:hover {
+		color: blue;
+		text-decoration: none;}
+    #common body:hover{
+        background-color: aqua;
+    }
+	#newEquipHover a span, #newEquipHover-side a span {
+		display: none;}
+	#newEquipHover a:hover span {
+		display: inline;
+		position: absolute;
+		top: 10px;
+		left: 436px;
+		padding: 15px 15px 5px 0;}
+	#newEquipHover a:hover span img, #newEquipHover-side a:hover span img {
+		}
+	#newEquipHover-side a:hover span {
+		display: inline;
+		position: absolute;
+		top: 10px;
+		left: 236px;
+		padding: 15px 15px 5px 0;}
+		box-shadow: 0px 1px 30px rgba(50, 50, 50, 0.62);}
