@@ -305,6 +305,12 @@ body {
         h2{
             font-size: 15px;
         }
+        .about{
+            width: 500px;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding-left: none;
+        }
     }
 
 .newEquipList {
