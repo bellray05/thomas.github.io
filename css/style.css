@@ -299,8 +299,7 @@ body {
   .navigation li:last-of-type a {
     border-bottom: none;
     }}
-
-@media (max-width: 768px) {
+    @media (max-width: 768px) {
    h1 {
         font-size: 14vw;
         padding-top: 15vh;
@@ -318,7 +317,7 @@ body {
   .piclayer {
     float: left;
     position: relative;
- }
+   }
   .vertical {
     font-size: 8vh;
     position: absolute;
@@ -326,7 +325,15 @@ body {
     -webkit-transform:  translateX(-110%) rotate(-90deg);
     transform-origin: right;
         }
-}
+       div#parallax-bg-3{
+        font-size: 35px;
+        }
+   div#bg-3-2{
+        width: 100%;
+        right: -2px;
+        }
+    }
+
 
 .newEquipList {
 		background-image: url('http://boydwp.lottmandesign.com/wp-content/uploads/2013/11/newEquipListBG.jpg');
@@ -376,12 +383,7 @@ body {
 		box-shadow: 0px 1px 30px rgba(50, 50, 50, 0.62);}
 
 
-@media (max-width: 768px) {
-   div#parallax-bg-3{
-        font-size: 35px;
-        }
-   div#bg-3-2{
-        width: 100%;
-        right: -2px;
-        }
-    }
+
+
+    
+
