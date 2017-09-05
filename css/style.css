@@ -1,3 +1,4 @@
+
 body{
   background:#ffff;
 }	
@@ -7,8 +8,8 @@ div#parallax-bg-1{
 	position: fixed;
 	width: 1200px;
 	top: 0;
-	left: 50%; 
-	margin-left: -600px; 
+    left: 50%;
+    margin-left: -650px;
 	z-index: 1;
 }
 /* background middle layer*/
@@ -17,7 +18,7 @@ div#parallax-bg-2{
 	width: 1200px;
 	top: 0;
 	left: 50%; 
-	margin-left: -600px; 
+	margin-left: -500px; 
 	z-index: 2;
 }
 /* background layer */
@@ -48,10 +49,10 @@ div#bg-3-1{
 }
 div#bg-3-2{
 	background:none;
-	width:80%;
+	width:75%;
 	height:auto;
 	top:1050px;
-	right:70px;
+	right:200px;
 }
 div#bg-3-3{
 	background:none;
@@ -143,8 +144,7 @@ h1{
      font-size: 14vw;
     padding-top: 15vh;
     } 
-h2 .vertical{
-}
+
 .about{
     position: absolute;
     font-family: "helvetica";
@@ -168,7 +168,7 @@ h2 .vertical{
     font:#010004;
     font-size: 8vh;
     position: absolute;
-    top: 5vw;
+    top: 8vw;
     -webkit-transform:  translateX(-110%) rotate(-90deg); 
     transform-origin: right;
 }
@@ -299,32 +299,7 @@ body {
   .navigation li:last-of-type a {
     border-bottom: none;
     }}
-    @media (max-width: 768px){
- h1{
-     font-size: 14vw;
-    padding-top: 15vh;
-    } 
-.about{
-    position: absolute;
-    font-size: 20px;
-    width: 50vw;
-    padding-left: 30px;
-    padding-bottom: 10px;
-    top: 70vh;
-    width: 90%;
-}
-.piclayer{
-    float: left;
-    position: relative;
-}
-.vertical{
-    font-size: 8vh;
-    position: absolute;
-    top: 15vw;
-    -webkit-transform:  translateX(-110%) rotate(-90deg); 
-    transform-origin: right;
-}
-    }
+
 
 .newEquipList {
 		background-image: url('http://boydwp.lottmandesign.com/wp-content/uploads/2013/11/newEquipListBG.jpg');
@@ -372,3 +347,37 @@ body {
 		left: 236px;
 		padding: 15px 15px 5px 0;}
 		box-shadow: 0px 1px 30px rgba(50, 50, 50, 0.62);}
+    @media (max-width: 768px){
+ h1{
+        font-size: 14vw !important;
+        padding-top: 15vh !important;
+    } 
+
+.about{
+    position: absolute !important;
+    font-size: 20px !important;
+    width: 50vw !important;
+    padding-left: 30px !important;
+    padding-bottom: 25px !important;
+    top: 70vh; !important;
+    width: 90%; !important;
+}
+.piclayer{
+    float: left !important;
+    position: relative !important;
+}
+.vertical{
+    font-size: 8vh !important;
+    position: absolute !important;
+    top: 15vw !important;
+    -webkit-transform:  translateX(-110%) rotate(-90deg) !important;
+    transform-origin: right !important;
+}
+   div#parallax-bg-3{
+        font-size: 35px!important;
+        }
+   div#bg-3-2{
+        width: 100% !important;
+        right: -2px !important;
+        }
+    }
