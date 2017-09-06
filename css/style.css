@@ -396,7 +396,8 @@ body {
 		text-decoration: none;
 		color: black;
 		background: none;
-		font-size: 10vw;}
+		font-size: 10vw;
+        font-family: "helvetica";}
 	#newEquipHover a:hover, #newEquipHover-side a:hover {
 		color: blue;
 		text-decoration: none;}
