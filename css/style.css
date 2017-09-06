@@ -165,6 +165,7 @@ h1{
     top: 67vh;
     
 }
+
 .piclayer{
     float: right;
     position: relative;
@@ -184,7 +185,18 @@ h1{
 .bio img{
     width: 100%;
 }
+.boom{
+    position: absolute;
+    font-family: "helvetica";
+    font: #010004;
+    font-size: 18px;
+    width: 50vw;
+    padding-left: 35vw;
+    color:blue;
+    top: 30vh;
+}
 
+}
 /*
 .bio img{
     width:500px;
@@ -196,11 +208,7 @@ h1{
     padding-top: -50vh;
 }
 */
-  .line{
-                       position:fixed;
-                       right: 5%;
-                       top: 1%;
-                        z-index: 100;}
+
 body {
    background-color: #fff;
    font-family: "helvetica";
@@ -308,6 +316,11 @@ body {
   .navigation li:last-of-type a {
     border-bottom: none;
     }}
+  .line{
+                       position:fixed;
+                       right: 5%;
+                       top: 1%;
+                        z-index: 100;}
     @media (max-width: 768px) {
    h1 {
         font-size: 14vw;
