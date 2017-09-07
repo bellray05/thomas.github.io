@@ -159,7 +159,7 @@ h1{
     font-family: "helvetica";
     font: #010004;
     font-size: 18px;
-    width: 50vw;
+    width: 70vw;
     padding-left: 15vw;
     color:blue;
     top: 67vh;
@@ -333,7 +333,7 @@ body {
   .about {
     position: absolute;
     font-size: 20px;
-    width: 50vw;
+    width: 60vw;
     padding-left: 30px;
     padding-bottom: 25px;
     top: 70vh; 
@@ -349,6 +349,10 @@ body {
     top: 12vh;
     -webkit-transform:  translateX(-110%) rotate(-90deg);
     transform-origin: right;
+        }
+        .bio img {
+            width: 70vw;
+            height: auto;
         }
        div#parallax-bg-3{
         font-size: 35px;
