@@ -178,7 +178,8 @@ h1{
     font:#010004;
     font-size: 8vh;
     position: absolute;
-    top: 8vw;
+    top: 13vw;
+    left: -15px;
     -webkit-transform:  translateX(-110%) rotate(-90deg); 
     transform-origin: right;
 }
@@ -343,7 +344,7 @@ body {
   .vertical {
     font-size: 8vh;
     position: absolute;
-    top: 15vw;
+    top: 17vw;
     -webkit-transform:  translateX(-110%) rotate(-90deg);
     transform-origin: right;
         }
@@ -371,6 +372,7 @@ body {
         }
         div#bg-1-4{
         right:380px;
+        top: 200vh;
         }
 }
 
