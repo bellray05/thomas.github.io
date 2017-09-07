@@ -398,7 +398,7 @@ body {
 		text-decoration: none;
 		color: black;
 		background: none;
-		font-size: 10vw;
+		font-size: 8vw;
         font-family: "helvetica";}
 	#newEquipHover a:hover, #newEquipHover-side a:hover {
 		color: blue;
@@ -412,7 +412,7 @@ body {
 		display: inline;
 		position: absolute;
 		top: 25vh;
-		left: 400px;
+		left: 430px;
 		padding: 15px 15px 5px 0;}
 	#newEquipHover a:hover span img, #newEquipHover-side a:hover span img {
         display: block;
