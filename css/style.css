@@ -343,9 +343,9 @@ body {
     position: relative;
    }
   .vertical {
-    font-size: 8vh;
+    font-size: 10vh;
     position: absolute;
-    top: 20vh;
+    top: 22vh;
     -webkit-transform:  translateX(-110%) rotate(-90deg);
     transform-origin: right;
         }
