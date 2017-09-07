@@ -231,6 +231,7 @@ body {
 }
 
 .sidenav a {
+    font-family: "helvetica";
     padding: 50px 10px 10px 10px;
     text-decoration: none;
     font-size: 70px;
