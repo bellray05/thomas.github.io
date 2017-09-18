@@ -409,9 +409,6 @@ body {
 	#newEquipHover a:hover, #newEquipHover-side a:hover {
 		color: blue;
 		text-decoration: none;}
-    #common body:hover{
-        background-color: aqua;
-    }
 	#newEquipHover a span, #newEquipHover-side a span {
 		display: none;}
 	#newEquipHover a:hover span {
@@ -425,6 +422,38 @@ body {
         position: relative;
         right: -100px;
 		}
+     .common a:hover span img{
+        display: block;
+        position: relative;
+        right: -200px !important;
+      }
+     .mtn a:hover span img{
+        display: block;
+        position: relative;
+        right: -200px !important;
+        top: 150px !important;
+    
+      }
+     .mu a:hover span img{
+        display: block;
+        position: relative;
+        right: -200px !important;
+        top: 300px; !important;
+    
+      }
+     .sum a:hover span img{
+        display: block;
+        position: relative;
+        right: -200px !important;
+        top: 400px; !important;
+    
+      }
+      .sea a:hover span img{
+        display: block;
+        position: relative;
+        right: -200px !important;
+        top: 450px; !important;
+      }
 	#newEquipHover-side a:hover span {
 		display: inline;
 		position: absolute;
@@ -432,6 +461,7 @@ body {
 		left: 236px;
 		padding: 15px 15px 5px 0;}
 		box-shadow: 0px 1px 30px rgba(50, 50, 50, 0.62);}
+
 
 
 
