@@ -420,7 +420,7 @@ body {
 	#newEquipHover a:hover span img, #newEquipHover-side a:hover span img {
         display: block;
         position: relative;
-        right: -100px;
+        right: -20vw;
 		}
      .common a:hover span img{
         display: block;
