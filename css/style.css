@@ -427,6 +427,11 @@ body {
         position: relative;
         right: -200px !important;
       }
+     .do a:hover span img{
+        display: block;
+        position: relative;
+        right: -100px !important;
+      }
      .mtn a:hover span img{
         display: block;
         position: relative;
