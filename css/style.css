@@ -443,6 +443,9 @@ body {
             width: 90vw;
             height: auto;
         }
+    div#parallax-bg-3 div{
+           height: 400vw;
+        }
        div#parallax-bg-3{
         font-size: 35px;
         }
