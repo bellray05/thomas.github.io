@@ -254,6 +254,93 @@ body {
     margin-left: 50px;
 }
 
+
+
+.newEquipList {
+		background-image: url('http://boydwp.lottmandesign.com/wp-content/uploads/2013/11/newEquipListBG.jpg');
+		width: 500px;
+		height: 250px;
+		}
+	.newEquipList-left, .newEquipList-Right { 
+		height: 1200px;
+		float: left;
+        padding-left: 50px;
+        padding-top: 50px;}
+	#newEquipHover, #newEquipHover-side {
+		position: relative;
+		padding: 50px;
+		border: 0px dotted #999;
+		background: none;
+		margin-bottom: 20px;}
+	#newEquipHover a, #newEquipHover-side a {
+		display: inline;
+		padding: 20px 20px 20px 5px;
+		text-decoration: none;
+		color: black;
+		background: none;
+		font-size: 8vw;
+        font-family: "helvetica";}
+	#newEquipHover a:hover, #newEquipHover-side a:hover {
+		color: blue;
+		text-decoration: none;}
+	#newEquipHover a span, #newEquipHover-side a span {
+		display: none;}
+	#newEquipHover a:hover span {
+		display: inline;
+		position: absolute;
+		top: 25vh;
+		left: 415px;
+		padding: 20px 20px 20px 5px;}
+	#newEquipHover a:hover span img, #newEquipHover-side a:hover span img {
+        display: block;
+        position: relative;
+        right: -20vw;
+		}
+     .common a:hover span img{
+        display: block;
+        position: relative;
+        right: -200px !important;
+      }
+     .do a:hover span img{
+        display: block;
+        position: relative;
+        right: -100px !important;
+      }
+     .mtn a:hover span img{
+        display: block;
+        position: relative;
+        right: -200px !important;
+        top: 150px !important;
+    
+      }
+     .mu a:hover span img{
+        display: block;
+        position: relative;
+        right: -200px !important;
+        top: 300px; !important;
+    
+      }
+     .sum a:hover span img{
+        display: block;
+        position: relative;
+        right: -200px !important;
+        top: 400px; !important;
+    
+      }
+      .sea a:hover span img{
+        display: block;
+        position: relative;
+        right: -200px !important;
+        top: 450px; !important;
+      }
+	#newEquipHover-side a:hover span {
+		display: inline;
+		position: absolute;
+		top: 10px;
+		left: 236px;
+		padding: 15px 15px 5px 0;}
+		box-shadow: 0px 1px 30px rgba(50, 50, 50, 0.62);}
+
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
@@ -380,93 +467,15 @@ body {
         right:380px;
         top: 170vh;
         }
+        .newEquipList-left{
+            padding-left: 0px;
+        }
+        #newEquipHover a{
+            font-size: 50px;
+            padding: 0px;
+           
+        }
 }
-
-.newEquipList {
-		background-image: url('http://boydwp.lottmandesign.com/wp-content/uploads/2013/11/newEquipListBG.jpg');
-		width: 500px;
-		height: 250px;
-		}
-	.newEquipList-left, .newEquipList-Right { 
-		height: 1200px;
-		float: left;
-        padding-left: 50px;
-        padding-top: 50px;}
-	#newEquipHover, #newEquipHover-side {
-		position: relative;
-		padding: 50px;
-		border: 0px dotted #999;
-		background: none;
-		margin-bottom: 20px;}
-	#newEquipHover a, #newEquipHover-side a {
-		display: inline;
-		padding: 20px 20px 20px 5px;
-		text-decoration: none;
-		color: black;
-		background: none;
-		font-size: 8vw;
-        font-family: "helvetica";}
-	#newEquipHover a:hover, #newEquipHover-side a:hover {
-		color: blue;
-		text-decoration: none;}
-	#newEquipHover a span, #newEquipHover-side a span {
-		display: none;}
-	#newEquipHover a:hover span {
-		display: inline;
-		position: absolute;
-		top: 25vh;
-		left: 415px;
-		padding: 20px 20px 20px 5px;}
-	#newEquipHover a:hover span img, #newEquipHover-side a:hover span img {
-        display: block;
-        position: relative;
-        right: -20vw;
-		}
-     .common a:hover span img{
-        display: block;
-        position: relative;
-        right: -200px !important;
-      }
-     .do a:hover span img{
-        display: block;
-        position: relative;
-        right: -100px !important;
-      }
-     .mtn a:hover span img{
-        display: block;
-        position: relative;
-        right: -200px !important;
-        top: 150px !important;
-    
-      }
-     .mu a:hover span img{
-        display: block;
-        position: relative;
-        right: -200px !important;
-        top: 300px; !important;
-    
-      }
-     .sum a:hover span img{
-        display: block;
-        position: relative;
-        right: -200px !important;
-        top: 400px; !important;
-    
-      }
-      .sea a:hover span img{
-        display: block;
-        position: relative;
-        right: -200px !important;
-        top: 450px; !important;
-      }
-	#newEquipHover-side a:hover span {
-		display: inline;
-		position: absolute;
-		top: 10px;
-		left: 236px;
-		padding: 15px 15px 5px 0;}
-		box-shadow: 0px 1px 30px rgba(50, 50, 50, 0.62);}
-
 
 
 
