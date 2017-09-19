@@ -424,7 +424,7 @@ body {
     font-size: 25px;
     padding-left:82px;
     padding-bottom: 25px;
-    top: 11vh; 
+    top: 12vh; 
     width: 80vw;
   }
   .piclayer {
@@ -435,7 +435,7 @@ body {
     font-size: 10vh;
     position: absolute;
     top: 25vh;
-      left: -3px;
+    left: -2px;
     -webkit-transform:  translateX(-110%) rotate(-90deg);
     transform-origin: right;
         }
