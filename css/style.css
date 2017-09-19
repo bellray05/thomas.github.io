@@ -325,14 +325,14 @@ body {
         display: block;
         position: relative;
         right: -200px !important;
-        top: 400px; !important;
+        top: 450px; !important;
     
       }
       .sea a:hover span img{
         display: block;
         position: relative;
         right: -200px !important;
-        top: 450px; !important;
+        top: 500px; !important;
       }
 	#newEquipHover-side a:hover span {
 		display: inline;
