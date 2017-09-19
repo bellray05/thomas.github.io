@@ -161,7 +161,7 @@ h1{
     font-size: 18px;
     width: 70vw;
     padding-left: 15vw;
-    color:blue;
+    color:#000ad1;
     top: 67vh;
     
 }
@@ -197,7 +197,7 @@ h1{
     width: 60vw;
     padding-left: 33vw;
     color:blue;
-    top: 30vh;
+    top: 20vh;
 }
 
 }
@@ -244,7 +244,7 @@ body {
 }
 
 .sidenav a:hover{
-    color: blue;
+    color: #000ad1;
 }
 
 .sidenav .closebtn {
@@ -282,7 +282,7 @@ body {
 		font-size: 8vw;
         font-family: "helvetica";}
 	#newEquipHover a:hover, #newEquipHover-side a:hover {
-		color: blue;
+		color: #000ad1;
 		text-decoration: none;}
 	#newEquipHover a span, #newEquipHover-side a span {
 		display: none;}
