@@ -162,7 +162,7 @@ h1{
     width: 70vw;
     padding-left: 15vw;
     color:#000ad1;
-    top: 67vh;
+    top: 75vh;
     
 }
 
@@ -179,7 +179,7 @@ h1{
     font:#010004;
     font-size: 10vh;
     position: absolute;
-    top: 4vw;
+    top: 6vw;
     left: -15px;
     -webkit-transform:  translateX(-110%) rotate(-90deg); 
     transform-origin: right;
