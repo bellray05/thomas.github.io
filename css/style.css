@@ -472,8 +472,12 @@ body {
         .newEquipList-left{
             padding-left: 50px;
         }
+        #newEquipHover{
+            padding: 0px;
+            padding-top: 50px;
+        }
         #newEquipHover a{
-            font-size: 50px;
+            font-size: 80px;
             padding: 0px;
            
         }
