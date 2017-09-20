@@ -1,6 +1,6 @@
 
 body{
-  background:#ffff;
+  background:#F0F0F0;
 }	
 
 /* foreground */
@@ -214,7 +214,7 @@ h1{
 */
 
 body {
-   background-color: #fff;
+   background-color: #F0F0F0;
    font-family: "helvetica";
    font:#010004;}
                     
@@ -225,7 +225,7 @@ body {
     z-index: 100;
     top: 0;
     left: 0;
-    background-color: #fff;
+    background-color: #F0F0F0;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -353,7 +353,7 @@ body {
   position: fixed;
   top: 0;
   z-index: 99;
-  background: #fff;
+  background: #F0F0F0;
   width: 100%;
   display: -webkit-box;
   display: -moz-box;
