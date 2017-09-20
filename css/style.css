@@ -162,7 +162,7 @@ h1{
     width: 70vw;
     padding-left: 15vw;
     color:#000ad1;
-    top: 75vh;
+    top: 80vh;
     
 }
 
@@ -440,8 +440,9 @@ body {
     transform-origin: right;
         }
         .bio img {
-            padding-top: 140px;
-            width: 90vw;
+            padding-top: 230px;
+            padding-left: 20px;
+            width: 60vw;
             height: auto;
         }
     div#parallax-bg-3 div{
