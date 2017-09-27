@@ -422,7 +422,7 @@ body {
   .about {
     position: absolute;
     font-size: 25px;
-    padding-left:68px;
+    padding-left:150px;
     padding-bottom: 25px;
     top: 12vh; 
     width: 80vw;
@@ -432,16 +432,16 @@ body {
     position: relative;
    }
   .vertical {
-    font-size: 10vh;
+    font-size: 12vh;
     position: absolute;
     top: 25vh;
-    left: -2px;
+    left: 6px;
     -webkit-transform:  translateX(-110%) rotate(-90deg);
     transform-origin: right;
         }
         .bio img {
-            padding-top: 460px;
-            padding-left: 65px;
+            padding-top: 600px;
+            padding-left: 230px;
             width: 60vw;
             height: auto;
         }
