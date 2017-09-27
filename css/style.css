@@ -186,7 +186,7 @@ h1{
     -webkit-text-stroke: 3px black;
 }
 .bio img{
-    width: 40vw;
+    width: 100%;
     height: auto;
 
 }
@@ -433,7 +433,7 @@ body {
     position: relative;
    }
   .vertical {
-    font-size: 87px;
+    font-size: 88px;
     color:#F0F0F0;
     position: absolute;
     top: 25vh;
@@ -443,8 +443,8 @@ body {
     -webkit-text-stroke: 3px black;
         }
         .bio img {
-            padding-top: 600px;
-            padding-left: 230px;
+            padding-top: 530px;
+            padding-left: 205px;
             width: 70vw;
             height: auto;
         }
