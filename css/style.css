@@ -177,10 +177,10 @@ h1{
 .vertical{
     font-family: "helvetica";
     color:#F0F0F0;
-    font-size: 15vh;
+    font-size: 4.5em;
     position: absolute;
-    top: -355px;
-    left: -210px;
+    top: -40px;
+    left: -105px;
     -webkit-transform:  translateX(-110%) rotate(-90deg); 
     transform-origin: right;
     -webkit-text-stroke: 3px black;
