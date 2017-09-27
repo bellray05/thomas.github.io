@@ -176,13 +176,14 @@ h1{
 }
 .vertical{
     font-family: "helvetica";
-    font:#010004;
-    font-size: 10vh;
+    color:#F0F0F0;
+    font-size: 15vh;
     position: absolute;
-    top: 6vw;
-    left: -15px;
+    top: -355px;
+    left: -210px;
     -webkit-transform:  translateX(-110%) rotate(-90deg); 
     transform-origin: right;
+    -webkit-text-stroke: 3px black;
 }
 .bio img{
     width: 40vw;
@@ -425,7 +426,7 @@ body {
     padding-left:150px;
     padding-bottom: 25px;
     top: 12vh; 
-    width: 80vw;
+    width: 90vw;
   }
   .piclayer {
     float: left;
@@ -444,7 +445,7 @@ body {
         .bio img {
             padding-top: 600px;
             padding-left: 230px;
-            width: 60vw;
+            width: 70vw;
             height: auto;
         }
     div#parallax-bg-3 div{
