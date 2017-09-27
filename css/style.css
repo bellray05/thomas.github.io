@@ -433,11 +433,13 @@ body {
    }
   .vertical {
     font-size: 12vh;
+    color:#F0F0F0;
     position: absolute;
     top: 25vh;
     left: 6px;
     -webkit-transform:  translateX(-110%) rotate(-90deg);
     transform-origin: right;
+    -webkit-text-stroke: 3px black;
         }
         .bio img {
             padding-top: 600px;
