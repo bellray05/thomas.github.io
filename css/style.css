@@ -426,7 +426,7 @@ body {
     padding-left:150px;
     padding-bottom: 25px;
     top: 12vh; 
-    width: 90vw;
+    width: 100%;
   }
   .piclayer {
     float: left;
@@ -443,7 +443,7 @@ body {
     -webkit-text-stroke: 3px black;
         }
         .bio img {
-            padding-top: 530px;
+            padding-top: 460px;
             padding-left: 205px;
             width: 70vw;
             height: auto;
