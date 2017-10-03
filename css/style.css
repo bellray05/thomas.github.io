@@ -143,9 +143,11 @@ div#bg-1-4{
     padding-right: 10vw;
 }
 div#bg-1-5{
-	background:none;
-	top:1200px;
-	left:-200px;
+    position: relative;
+    display: block;
+	top:350vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 h1{
      font-family: "helvetica";
@@ -476,6 +478,10 @@ body {
         div#bg-1-4{
         right:380px;
         top: 170vh;
+        }
+        div#bg-1-5{
+        right:15px;
+        top: 200vh;
         }
         .newEquipList-left{
             padding-left: 50px;
