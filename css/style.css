@@ -436,8 +436,8 @@ body {
     font-size: 88px;
     color:#F0F0F0;
     position: absolute;
-    top: 25vh;
-    left: 25px;
+    top: 20vh;
+    left: 35px;
     -webkit-transform:  translateX(-110%) rotate(-90deg);
     transform-origin: right;
     -webkit-text-stroke: 3px black;
