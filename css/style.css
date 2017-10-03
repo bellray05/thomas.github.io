@@ -179,7 +179,7 @@ h1{
     color:#F0F0F0;
     font-size: 4.5em;
     position: absolute;
-    top: -40px;
+    top: 25px;
     left: -105px;
     -webkit-transform:  translateX(-110%) rotate(-90deg); 
     transform-origin: right;
@@ -422,11 +422,11 @@ body {
 
   .about {
     position: absolute;
-    font-size: 25px;
-    padding-left:150px;
+    font-size: 20px;
+    padding-left:100px;
     padding-bottom: 25px;
     top: 12vh; 
-    width: 100%;
+    width: 80%;
   }
   .piclayer {
     float: left;
@@ -436,7 +436,7 @@ body {
     font-size: 88px;
     color:#F0F0F0;
     position: absolute;
-    top: 25vh;
+    top: 20vh;
     left: 6px;
     -webkit-transform:  translateX(-110%) rotate(-90deg);
     transform-origin: right;
@@ -444,7 +444,7 @@ body {
         }
         .bio img {
             padding-top: 460px;
-            padding-left: 205px;
+            padding-left: 150px;
             width: 70vw;
             height: auto;
         }
