@@ -172,15 +172,15 @@ h1{
     width: 500px;
     margin-left: 20vw;
     margin-right: 20vw;
-    margin-bottom: 10vw;
+    margin-bottom: 15vw;
 }
 .vertical{
     font-family: "helvetica";
     color:#F0F0F0;
     font-size: 4.5em;
     position: absolute;
-    top: 25px;
-    left: -105px;
+    top: 50px;
+    left: -35px;
     -webkit-transform:  translateX(-110%) rotate(-90deg); 
     transform-origin: right;
     -webkit-text-stroke: 3px black;
