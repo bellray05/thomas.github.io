@@ -423,7 +423,7 @@ body {
   .about {
     position: absolute;
     font-size: 20px;
-    padding-left:100px;
+    padding-left:120px;
     padding-bottom: 25px;
     top: 12vh; 
     width: 80%;
@@ -437,13 +437,13 @@ body {
     color:#F0F0F0;
     position: absolute;
     top: 20vh;
-    left: 6px;
+    left: 25px;
     -webkit-transform:  translateX(-110%) rotate(-90deg);
     transform-origin: right;
     -webkit-text-stroke: 3px black;
         }
         .bio img {
-            padding-top: 460px;
+            padding-top: 450px;
             padding-left: 150px;
             width: 70vw;
             height: auto;
