@@ -159,7 +159,6 @@ h1{
 .about{
     position: absolute;
     font-family: "helvetica";
-    font: #010004;
     font-size: 18px;
     width: 70vw;
     padding-left: 15vw;
@@ -177,12 +176,12 @@ h1{
     margin-bottom: 15vw;
 }
 .vertical{
-    font-family: "helvetica";
+    font-family: "Agane";
     color:#F0F0F0;
     font-size: 4.5em;
     position: absolute;
     top: 50px;
-    left: -35px;
+    left: -20px;
     -webkit-transform:  translateX(-110%) rotate(-90deg); 
     transform-origin: right;
     -webkit-text-stroke: 3px black;
@@ -236,8 +235,8 @@ body {
 }
 
 .sidenav a {
-    font-family: "helvetica";
-    padding: 50px 10px 10px 10px;
+    font-family: "Agane";
+    padding: 80px 10px 10px 10px;
     text-decoration: none;
     font-size: 70px;
     color: black;
@@ -283,7 +282,7 @@ body {
 		color: black;
 		background: none;
 		font-size: 8vw;
-        font-family: "helvetica";}
+        font-family:"Agane";}
 	#newEquipHover a:hover, #newEquipHover-side a:hover {
 		color: #000ad1;
 		text-decoration: none;}
@@ -351,6 +350,7 @@ body {
 } 
 
 .navigation {
+  font-family:"helvetica";
   list-style: none;
   margin: 0; 
   position: fixed;
