@@ -151,7 +151,7 @@ div#bg-1-5{
 }
 h1{
      font-family: "Agane";
-     font:#010004;
+     color:#010004;
      font-size: 14vw;
     padding-top: 15vh;
     } 
@@ -198,7 +198,7 @@ h1{
     font-size: 18px;
     width: 60vw;
     padding-left: 33vw;
-    color:blue;
+    color:#000ad1;
     top: 20vh;
 }
 
@@ -257,6 +257,81 @@ body {
     margin-left: 50px;
 }
 
+/*
+something new
+*/
+
+#slider {
+  position: relative;
+  overflow: hidden;
+  margin: 10px auto 0 auto;
+  border-radius: 4px;
+  padding-top: -50px;
+}
+
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 100px;
+  list-style: none;
+}
+
+#slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 1000px;
+  height: 750px;
+  background: #F0F0F0;
+  text-align: center;
+  line-height: 300px;
+}
+
+a.control_prev, a.control_next {
+  position: absolute;
+  top: 40%;
+  z-index: 80;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  background: #2a2a2a;
+  color: #F0F0F0;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+a.control_prev:hover, a.control_next:hover {
+  opacity: 2;
+  -webkit-transition: all 0.2s ease;
+}
+
+a.control_prev {
+  border-radius: 0 2px 2px 0;
+}
+
+a.control_next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
+
+.slider_option {
+  position: relative;
+  margin: 10px auto;
+  font-size: 100px;
+  font-family: "agane";
+  color:#010004;
+}
+
+/*
+something else
+*/
 
 
 .newEquipList {
