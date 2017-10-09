@@ -559,14 +559,15 @@ something else
         top: 200vh;
         }
         .newEquipList-left{
-            padding-left: 50px;
+            padding-left: 10px;
+            padding-right: 10px;
         }
         #newEquipHover{
             padding: 0px;
-            padding-top: 50px;
+            padding-top: 80px;
         }
         #newEquipHover a{
-            font-size: 75px;
+            font-size: 70px;
             padding: 0px;
            
         }
