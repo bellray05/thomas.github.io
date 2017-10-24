@@ -1,6 +1,8 @@
 
 body{
   background:#F0F0F0;
+  width: 100%;
+  height: 100%;
 }	
 
 /* foreground */
@@ -155,7 +157,22 @@ h1{
      font-size: 14vw;
     padding-top: 15vh;
     } 
+h2{
+     font-family: "Agane";
+     color:#F0F0F0;
+     font-size: 14em;  
+}
 
+video {
+    position: fixed;
+    right:0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -50;
+}
 .about{
     position: absolute;
     font-family: "helvetica";
@@ -167,28 +184,15 @@ h1{
     
 }
 
-.piclayer{
-    float: right;
-    position: relative;
-    width: 500px;
-    margin-left: 20vw;
-    margin-right: 20vw;
-    margin-bottom: 15vw;
-}
+
 .vertical{
     font-family: "Agane";
     color:#F0F0F0;
-    font-size: 4.5em;
+    font-size: 2.5em;
     position: absolute;
     top: 50px;
     left: -20px;
-    -webkit-transform:  translateX(-110%) rotate(-90deg); 
-    transform-origin: right;
-    -webkit-text-stroke: 3px black;
 }
-.bio img{
-    width: 100%;
-    height: auto;
 
 }
 .boom{
@@ -196,8 +200,6 @@ h1{
     font-family: "helvetica";
     font: #010004;
     font-size: 18px;
-    width: 60vw;
-    padding-left: 33vw;
     color:#000ad1;
     top: 20vh;
 }
@@ -496,35 +498,12 @@ something else
         font-size: 14vw;
         padding-top: 15vh;
     } 
+        h2 {
+            font-size: 100px;
+            padding-top: 15vh;
+        }
 
-  .about {
-    position: absolute;
-    font-size: 20px;
-    padding-left:120px;
-    padding-bottom: 25px;
-    top: 12vh!important;
-    width: 80%;
-  }
-  .piclayer {
-    float: left;
-    position: relative;
-   }
-  .vertical {
-    font-size: 88px;
-    color:#F0F0F0;
-    position: absolute;
-    top: 20vh;
-    left: 35px;
-    -webkit-transform:  translateX(-110%) rotate(-90deg);
-    transform-origin: right;
-    -webkit-text-stroke: 3px black;
-        }
-        .bio img {
-            padding-top: 440px;
-            padding-left: 160px;
-            width: 70vw;
-            height: auto;
-        }
+
     div#parallax-bg-3 div{
            height: 420vh;
         }
