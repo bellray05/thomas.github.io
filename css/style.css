@@ -482,6 +482,7 @@ something else
             position: fixed;
             font-size: 100px;
             padding-top: 10vh;
+            overflow-y: hidden;
         }
         .boom{
             padding-top:50px;
