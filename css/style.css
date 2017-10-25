@@ -162,10 +162,7 @@ h2{
      color:#F0F0F0;
      font-size: 14em;  
 }
-#container {
-    overflow: hidden;
-    position: relative; 
-}
+
 video {
     position: fixed;
     right:0;
