@@ -479,6 +479,7 @@ something else
         padding-top: 15vh;
     } 
         h2 {
+            position: fixed;
             font-size: 100px;
             padding-top: 10vh;
         }
