@@ -173,35 +173,14 @@ video {
     height: auto;
     z-index: -50;
 }
-.about{
-    position: absolute;
-    font-family: "helvetica";
-    font-size: 18px;
-    width: 70vw;
-    padding-left: 15vw;
-    color:#000ad1;
-    top: 700px;
-    
-}
-
-
-.vertical{
-    font-family: "Agane";
-    color:#F0F0F0;
-    font-size: 2.5em;
-    position: absolute;
-    top: 50px;
-    left: -20px;
-}
 
 }
-.boom{
+.boom {
     position: absolute;
     font-family: "helvetica";
     font: #010004;
     font-size: 18px;
-    color:#000ad1;
-    top: 20vh;
+    padding-top: 100px;
 }
 
 }
@@ -502,7 +481,9 @@ something else
             font-size: 100px;
             padding-top: 15vh;
         }
-
+        .boom{
+            padding-top:50px;
+        }
 
     div#parallax-bg-3 div{
            height: 420vh;
