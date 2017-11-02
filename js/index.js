@@ -1,22 +1,21 @@
-function onReady(callback) {
-    var intervalID = window.setInterval(checkReady, 1000);
+var $body = $('body');
 
-    function checkReady() {
-        if (document.getElementsByTagName('body')[0] !== undefined) {
-            window.clearInterval(intervalID);
-            callback.call(this);
-        }
+var loading = [
+    { elements: $body, properties: { width: '20%' } },
+    { elements: $body, properties: { width: '30%' } },
+    { elements: $body, properties: { width: '50%' } },
+    { elements: $body, properties: { width: '100%' } },
+    { elements: $body, properties: { height: '100%' }, options: { 
+      complete: function () { 
+        $('.wrap').velocity( 'transition.slideUpIn' );
+        $('mp4').velocity( 'transition.flipYIn' );
+        $('html').css({ background: '#fff' });
+      }
     }
-}
+  }
+]; 
 
-function show(id, value) {
-    document.getElementById(id).style.display = value ? 'block' : 'none';
-}
-
-onReady(function () {
-    show('page', true);
-    show('loading', false);
-});
+$.Velocity.RunSequence(loading);
 
 jQuery(document).ready(function(){
   $(window).scroll(function(e){
