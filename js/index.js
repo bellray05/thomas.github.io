@@ -1,11 +1,22 @@
- /* 
-See https://codepen.io/MarcelSchulz/full/lCvwq
+function onReady(callback) {
+    var intervalID = window.setInterval(checkReady, 1000);
 
-The effect doens't appear as nice when viewing in split view :-)
+    function checkReady() {
+        if (document.getElementsByTagName('body')[0] !== undefined) {
+            window.clearInterval(intervalID);
+            callback.call(this);
+        }
+    }
+}
 
-Fully working version can also be found at (http://schulzmarcel.de/x/drafts/parallax).
+function show(id, value) {
+    document.getElementById(id).style.display = value ? 'block' : 'none';
+}
 
-*/
+onReady(function () {
+    show('page', true);
+    show('loading', false);
+});
 
 jQuery(document).ready(function(){
   $(window).scroll(function(e){
@@ -70,23 +81,3 @@ jQuery(document).ready(function ($) {
 
 });    
 
-// click "Run" to replay
-
-var $body = $('body');
-
-var loading = [
-    { elements: $body, properties: { width: '20%' } },
-    { elements: $body, properties: { width: '30%' } },
-    { elements: $body, properties: { width: '50%' } },
-    { elements: $body, properties: { width: '100%' } },
-    { elements: $body, properties: { height: '100%' }, options: { 
-      complete: function () { 
-        $('.wrap').velocity( 'transition.slideUpIn' );
-        $('img').velocity( 'transition.flipYIn' );
-        $('html').css({ background: '#fff' });
-      }
-    }
-  }
-]; 
-
-$.Velocity.RunSequence(loading);
