@@ -163,7 +163,7 @@ h2{
      font-size: 14em;  
 }
 h4{
-color: #000ad1;
+color: #010004;
 }
 
 
@@ -180,16 +180,16 @@ color: #000ad1;
 
 #home2 {
     position: absolute;
-    top: 300px;
+    top: 400px;
     bottom: 0;
     right: 0;
     left: 0;
     margin: auto;
     width: auto;
     height: 100%;
-    min-height: 300px;
+    min-height: 400px;
     min-width: auto;
-    max-height: 700px;
+    max-height: 750px;
 }
 #home3 {
     position: absolute;
@@ -211,6 +211,7 @@ color: #000ad1;
     padding-top: 100px;
 }
 .sbux{
+  top: 550px;
   position: relative;
   margin: 150px auto;
   
