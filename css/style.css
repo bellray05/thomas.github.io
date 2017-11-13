@@ -165,7 +165,9 @@ h2{
 h4{
 color: #000ad1;
 }
-video {
+
+
+ #home {
     position: fixed;
     right:0;
     bottom: 0;
@@ -176,16 +178,56 @@ video {
     z-index: -50;
 }
 
+#home2 {
+    position: absolute;
+    top: 250px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: auto;
+    height: 100%;
+    min-height: 300px;
+    min-width: auto;
+    max-height: 700px;
+    max-width: auto;
+}
+#home3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    max-height: 400px;
 }
 .boom {
-    position: absolute;
+    
     font-family: "helvetica";
     font: #010004;
     font-size: 18px;
     padding-top: 100px;
 }
-
+.starbucks{
+  position: relative;
+  margin: 150px auto;
+  
+    font-family: "helvetica";
+    font: #010004;
+    font-size: 18px;
 }
+.adidas{
+  position: relative;
+  margin: 150px auto;
+  
+    font-family: "helvetica";
+    font: #010004;
+    font-size: 18px;
+}
+
 /*
 .bio img{
     width:500px;
@@ -489,7 +531,9 @@ something else
         .boom{
             padding-top:50px;
         }
-
+        .home2{
+            top: 50px !important;
+        }
 
     div#parallax-bg-3 div{
            height: 420vh;
