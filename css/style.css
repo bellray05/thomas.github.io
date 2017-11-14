@@ -589,8 +589,8 @@ something else
             padding: 0px;
            
         }
-        .home2{
-            top: 50px !important;
+        #home2{
+            top: 500px !important;
         }
 }
 
