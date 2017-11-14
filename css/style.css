@@ -211,7 +211,6 @@ color: #010004;
     padding-top: 100px;
 }
 .sbux{
-  top: 550px;
   position: relative;
   margin: 150px auto;
   
@@ -543,9 +542,6 @@ something else
         .boom{
             padding-top:50px;
         }
-        .home2{
-            top: 50px !important;
-        }
 
     div#parallax-bg-3 div{
            height: 420vh;
@@ -592,6 +588,15 @@ something else
             font-size: 70px;
             padding: 0px;
            
+        }
+            .home2{
+            top: 50px !important;
+        }
+        .sbux{
+            top: 200px !important;
+        }
+        .adi{
+            top: 200px !important;
         }
 }
 
