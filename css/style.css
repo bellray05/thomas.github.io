@@ -358,23 +358,16 @@ something else
 */
 
 
-.newEquipList {
-		background-image: url('http://boydwp.lottmandesign.com/wp-content/uploads/2013/11/newEquipListBG.jpg');
-		width: 500px;
-		height: 250px;
-		}
-	.newEquipList-left, .newEquipList-Right { 
-		height: 1200px;
-		float: left;
-        padding-left: 50px;
-        padding-top: 50px;}
-	#newEquipHover, #newEquipHover-side {
+.newEquipList-left { ;
+	 text-align: center;
+}
+	#newEquipHover {
 		position: relative;
 		padding: 50px;
 		border: 0px dotted #999;
 		background: none;
 		margin-bottom: 20px;}
-	#newEquipHover a, #newEquipHover-side a {
+	#newEquipHover a {
 		display: inline;
 		padding: 20px 20px 20px 5px;
 		text-decoration: none;
@@ -382,78 +375,19 @@ something else
 		background: none;
 		font-size: 8vw;
         font-family:"Agane";}
-	#newEquipHover a:hover, #newEquipHover-side a:hover {
+	#newEquipHover a:hover {
 		color: #000ad1;
 		text-decoration: none;}
-	#newEquipHover a span, #newEquipHover-side a span {
+	#newEquipHover a span{
 		display: none;}
 	#newEquipHover a:hover span {
-		display: inline;
-		position: absolute;
-		top: 25vh;
+		display: block;
+		position: fixed;
+		top: 20vw;
 		left: 415px;
-		padding: 20px 20px 20px 5px;}
-	#newEquipHover a:hover span img, #newEquipHover-side a:hover span img {
-        display: block;
-        position: relative;
-        right: -20vw;
+        z-index: -50;
 		}
-     .common a:hover span img{
-        display: block;
-        position: relative;
-        right: -200px !important;
-      }
-     .do a:hover span img{
-        display: block;
-        position: relative;
-        right: -100px !important;
-      }
-     .mtn a:hover span img{
-        display: block;
-        position: relative;
-        right: -200px !important;
-        top: 150px !important;
-    
-      }
-     .mu a:hover span img{
-        display: block;
-        position: relative;
-        right: -200px !important;
-        top: 300px; !important;
-    
-      }
-     .sum a:hover span img{
-        display: block;
-        position: relative;
-        right: -200px !important;
-        top: 850px; !important;
-    
-      }
-      .sea a:hover span img{
-        display: block;
-        position: relative;
-        right: -200px !important;
-        top: 950px; !important;
-      }
-      .starbucks a:hover span img{
-        display: block;
-        position: relative;
-        right: -200px !important;
-        top: 700px; !important;
-      }
-      .adidas a:hover span img{
-        display: block;
-        position: relative;
-        right: -200px !important;
-        top: 950px; !important;
-      }
-	#newEquipHover-side a:hover span {
-		display: inline;
-		position: absolute;
-		top: 10px;
-		left: 236px;
-		padding: 15px 15px 5px 0;}
-		box-shadow: 0px 1px 30px rgba(50, 50, 50, 0.62);}
+
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
