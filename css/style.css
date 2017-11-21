@@ -47,26 +47,24 @@ body{
 /* foreground */
 div#parallax-bg-1{
 	position: fixed;
-	width: 1200px;
+    display: block;
+    margin: 0 auto;
+	width: 100%;
 	top: 0;
-    left: 50%;
-    margin-left: -650px;
 	z-index: 1;
+    
 }
 /* background middle layer*/
 div#parallax-bg-2{
 	position: fixed;
-	width: 1200px;
-	top: 0;
-	left: 50%; 
-	margin-left: -500px; 
+	width: 100%;
+	top: 0; 
 	z-index: 2;
 }
 /* background layer */
 div#parallax-bg-3{
         position: relative;
 		display: block;
-		padding: 50px -20px 2px 9px !important;
 		text-decoration: none;
 		color: #010004;
 		background: none;
@@ -116,8 +114,8 @@ div#parallax-bg-2 div{
 	background-repeat:no-repeat;
 	position:absolute;
 	display:block;
-	width:488px;
-	height:138px;
+	width:100%;
+	height:100%;
 	overflow:hidden;
 }
 
@@ -158,30 +156,31 @@ div#bg-1-1{
     position:relative;
     display: block;
 	top:90vh; 
-    padding-left: 10vw;
-    padding-right: 10vw;
+    left: 25vw;
+    right: 25vw;
 }
 div#bg-1-2{
     position: relative;
     display: block;
 	top:200vh;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    left: 25vw;
+    right: 25vw;
     
 }
 div#bg-1-3{
-    position:relative;
+    position: relative;
     display: block;
-	top:90vh;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    left: 25vw;
+    right: 25vw;
+	top:100vh;
+
 }
 div#bg-1-4{
     position: relative;
     display: block;
-	top:300vh;
-    padding-left: 10vw;
-    padding-right: 10vw;
+	top:250vh;
+    left: 25vw;
+    right: 25vw;
 }
 div#bg-1-5{
     position: relative;
@@ -189,6 +188,19 @@ div#bg-1-5{
 	top:350vh;
     padding-left: 10vw;
     padding-right: 10vw;
+}
+
+.shoes{
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    min-width: 200px;
+}
+.hidi{
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    min-width: 400px;
 }
 h1{
      font-family: "Agane";
@@ -527,7 +539,6 @@ something else
         right: -2px;
         }
         div#bg-1-1{
-        right:380px;
         top: 70vh;
         }
         div#bg-1-2{
