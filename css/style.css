@@ -554,8 +554,9 @@ something else
            
         }
         #home{
-            width: auto !important;
-            height: 100% !important;
+            background-color: black !important;
+            max-width: 800px !important;
+            height: auto !important;
         }
         #home2{
             top: 500px !important;
