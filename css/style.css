@@ -183,7 +183,7 @@ div#bg-1-5{
     width: 100%;
     height: auto;
     max-width: 800px;
-    min-width: 400px;
+    min-width: 250px;
 }
 h1{
      font-family: "Agane";
@@ -525,7 +525,6 @@ something else
         top: 70vh;
         }
         div#bg-1-2{
-        right:380px;
         top: 150vh;
         }
         div#bg-3-3{
