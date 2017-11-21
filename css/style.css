@@ -553,6 +553,10 @@ something else
             padding: 0px;
            
         }
+        #home{
+            width: auto !important;
+            height: 100% !important;
+        }
         #home2{
             top: 500px !important;
         }
