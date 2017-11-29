@@ -33,6 +33,7 @@ div#parallax-bg-1{
     display: block;
     margin: 0 auto;
 	width: 100%;
+    height: 100%;
 	top: 0;
 	z-index: 1;
     
@@ -140,14 +141,12 @@ div#bg-1-1{
     display: block;
 	top:90vh; 
     left: 25vw;
-    right: 25vw;
 }
 div#bg-1-2{
     position: relative;
     display: block;
-	top:200vh;
+	top:220vh;
     left: 25vw;
-    right: 25vw;
     
 }
 div#bg-1-3{
@@ -276,7 +275,7 @@ color: #010004;
 body {
    background-color: #F0F0F0;
    font-family: "helvetica";
-   font:#010004;}
+   color:#010004;}
                     
    .sidenav {
     height: 100%;
