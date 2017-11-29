@@ -508,7 +508,7 @@ something else
             left:10px;
         }
         .boom{
-            padding-top: 50px;
+            padding-top: 20px;
         }
 
     div#parallax-bg-3 div{
@@ -522,9 +522,11 @@ something else
         }
         div#bg-1-1{
         top: 70vh;
+        left: 1px !important;
         }
         div#bg-1-2{
         top: 150vh;
+        left: 1px !important;
         }
         div#bg-3-3{
         top:90vh;
@@ -563,6 +565,7 @@ something else
         #home3{
             top: 250px !important;
         }
+
 }
 
 
