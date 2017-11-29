@@ -504,8 +504,9 @@ something else
         h2 {
             position: fixed;
             font-size: 105px;
-            padding-top: 70px;
+            padding-top: 60px;
             overflow-y: hidden;
+            left:10px;
         }
         .boom{
             padding-top: 50px;
