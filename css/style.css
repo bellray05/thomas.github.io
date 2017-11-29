@@ -519,7 +519,6 @@ something else
         }
        div#bg-3-2{
         width: 100%;
-        right: -2px;
         }
         div#bg-1-1{
         top: 70vh;
@@ -540,12 +539,12 @@ something else
         right:15px;
         top: 200vh;
         }
-        .newEquipList-left{
-            padding-left: 10px;
-            padding-right: 10px;
+
+        .newEquipList-left { 
+            max-width: 100% !important;
+            overflow-x: hidden !important;
         }
         #newEquipHover{
-            padding: 0px;
             padding-top: 80px;
         }
         #newEquipHover a{
