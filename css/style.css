@@ -314,7 +314,7 @@ text-decoration-line: none;
 }
 #home3 {
     position: absolute;
-    top: 0;
+    top: 20px;
     bottom: 0;
     right: 0;
     left: 0;
