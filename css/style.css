@@ -271,8 +271,8 @@ color: #010004;
  position: absolute;
  display: block;
  width: 40%; 
- left: 60%;
- top: -7%;
+ left: 57%;
+ top: -5%;
  z-index: 50;
  text-align: right
 }
@@ -670,11 +670,11 @@ something else
         min-height:100% !important;
         }
 #ideals1{
- left: 10% !important;
+ left: 5% !important;
  top: -35px !important;
         }
 .ideals{
-    font-size: 34px;
+    font-size: 30px;
     color: black;
 }
        #wrapper2{
