@@ -637,7 +637,7 @@ something else
         }
 #ideals1{
  left: 1% !important;
- top: 0% !important;
+ top: -10px !important;
         }
 .ideals{
     font-size: 34px;
