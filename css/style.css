@@ -238,32 +238,52 @@ color: #010004;
  display: block;
  width: 100%;
  height: auto;
- left: 30%;
+ right: 25%;
+ top: 20%;
 }
 .port{
     position: relative;
     display: block;
     margin: auto;
-    width: 40%;
+    width: 25%;
     height: auto;
-    min-width: 500px;
-    min-height: auto;
-    max-width: 600px;
-    max-height: auto;
+    max-width: 350px;
+    min-width: 300px;
+}
+#port2{
+ position: absolute;
+ display: block;
+ width: 100%;
+ height: auto;
+ left: 30%;
+ top: 0%;
+}
+.port3{
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: auto;
+    min-width: 600px;
+    max-width: 800px;
 }
 #ideals1{
  position: absolute;
  display: block;
  width: 40%; 
- left: 20%;
- top: 10%;  
+ left: 60%;
+ top: -7%;
+ z-index: 50;
+ text-align: right
 }
 .ideals{
-    font-size: 50px;
+    font-size: 3.5em;
+    z-index: 50;
+    color: white;
 }
 #wrapper2{
     position: absolute;
-    top: 170vh;
+    top: 200vh;
     width: 100%;
     height: 130%;
     background-color: black;
@@ -629,18 +649,26 @@ something else
             top: 250px !important;
         }
         #port1{
-        top: 1% !important;
+        top: 60% !important;
         }
         .port{
-        min-width: 330px !important;
+        min-width: 200px !important;
         min-height: 100% !important;
+        }
+        #port2{
+        top: 0%;
+        }
+        .port3{
+        min-width:200px !important;
+        min-height:100% !important;
         }
 #ideals1{
  left: 1% !important;
- top: -10px !important;
+ top: -35px !important;
         }
 .ideals{
     font-size: 34px;
+    color: black;
 }
        #wrapper2{
            max-height: 110%;
