@@ -617,7 +617,7 @@ something else
            
         }
         #home{
-            background:url(assets/homepage.eng) no-repeat;
+            background:url("assets/homepage.png") no-repeat;
             background-color: black !important;
             max-width: 700px !important;
             height: auto !important;
