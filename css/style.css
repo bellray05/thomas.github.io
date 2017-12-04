@@ -193,12 +193,24 @@ h1{
 h2{
      font-family: "Agane";
      color:#F0F0F0;
-     font-size: 14em;  
+     font-size: 12.5em;
+     z-index: 5;
 }
 h4{
+z-index: 100;
 color: #010004;
 }
 
+ #statement{
+    position: relative;
+    right:0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 5;
+}
 
  #home {
     position: fixed;
@@ -209,8 +221,57 @@ color: #010004;
     width: auto;
     height: auto;
     z-index: -50;
+    background-size: cover;
+    overflow: hidden;
 }
-
+#wrapper{
+    position: absolute;
+    top: 100vh;
+    width: 100%;
+    height: 70%;
+    background-color: azure;
+    z-index: 101;
+    overflow: hidden;
+}
+#port1{
+ position: absolute;
+ display: block;
+ width: 100%;
+ height: auto;
+ left: 30%;
+}
+.port{
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 40%;
+    height: auto;
+    min-width: 500px;
+    min-height: auto;
+    max-width: 600px;
+    max-height: auto;
+}
+#ideals1{
+ position: absolute;
+ display: block;
+ width: 40%; 
+ left: 20%;
+ top: 10%;  
+}
+.ideals{
+    font-size: 50px;
+}
+#wrapper2{
+    position: absolute;
+    top: 170vh;
+    width: 100%;
+    height: 130%;
+    background-color: black;
+    z-index: 101;
+    font-size: 50px;
+    text-align:center;
+    color:#F0F0F0;
+}
 #home2 {
     position: absolute;
     top: 400px;
@@ -236,6 +297,7 @@ color: #010004;
     min-height: 300px;
     max-height: 400px;
 }
+
 .boom {
     
     font-family: "helvetica";
@@ -281,7 +343,7 @@ body {
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 100;
+    z-index: 200;
     top: 0;
     left: 0;
     background-color: #F0F0F0;
@@ -565,7 +627,19 @@ something else
         #home3{
             top: 250px !important;
         }
-
+        #port1{
+        top: 15% !important;
+        }
+        .port{
+        min-width: 330px !important;
+        }
+#ideals1{
+ left: 5% !important;
+ top: 15% !important;
+        }
+.ideals{
+    font-size: 35px;
+}
 }
 
 
