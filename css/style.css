@@ -565,7 +565,7 @@ something else
         h2 {
             position: fixed;
             font-size: 105px;
-            padding-top: 50px;
+            padding-top: 30px;
             overflow-y: hidden;
             left:10px;
         }
