@@ -404,6 +404,7 @@ body {
 }
 .submenu a{
     padding: 30px;
+    
 }
 li{
 list-style-type: none;
@@ -695,6 +696,9 @@ something else
 }
        #wrapper2{
            max-height: 110%;
+        }
+        .submenu a{
+            font-size: 30px;
         }
 }
 
