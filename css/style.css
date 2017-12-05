@@ -661,6 +661,7 @@ something else
         .port{
         min-width: 200px !important;
         min-height: 100% !important;
+        right: 5px;
         }
         #port2{
         top: 0%;
