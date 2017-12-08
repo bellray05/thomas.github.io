@@ -52,7 +52,7 @@ div#parallax-bg-3{
 		text-decoration: none;
 		color: #010004;
 		background: none;
-		font-size: 72px;
+		font-size: 50px;
          z-index: 5;
 }
 /* foreground */
@@ -187,7 +187,7 @@ div#bg-1-5{
 h1{
      font-family: "Agane";
      color:#010004;
-     font-size: 14vw;
+     font-size: 11vw;
     padding-top: 15vh;
     } 
 h2{
@@ -620,7 +620,7 @@ something else
            height: 420vh;
         }
        div#parallax-bg-3{
-        font-size: 35px;
+        font-size: 20px;
         }
        div#bg-3-2{
         width: 100%;
