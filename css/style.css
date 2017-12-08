@@ -314,13 +314,13 @@ text-decoration-line: none;
 }
 #home3 {
     position: absolute;
-    top: 20px;
+    top: 50px;
     bottom: 0;
     right: 0;
     left: 0;
     margin: auto;
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
     min-height: 300px;
     max-height: 400px;
 }
@@ -330,7 +330,7 @@ text-decoration-line: none;
     font-family: "helvetica";
     font: #010004;
     font-size: 18px;
-    padding-top: 100px;
+    padding-left: 10%;
 }
 .sbux{
   position: relative;
@@ -613,7 +613,8 @@ something else
             left:10px;
         }
         .boom{
-            padding-top: 20px;
+            text-align: left;
+            padding-top: 10px;
         }
 
     div#parallax-bg-3 div{
