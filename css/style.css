@@ -319,8 +319,8 @@ text-decoration-line: none;
     right: 0;
     left: 0;
     margin: auto;
-    width: auto;
-    height: 100%;
+    width: 100%;
+    height: auto;
     min-height: 300px;
     max-height: 400px;
 }
