@@ -224,15 +224,7 @@ color: #010004;
     background-size: cover;
     overflow: hidden;
 }
-#wrapper{
-    position: absolute;
-    top: 100vh;
-    width: 100%;
-    height: 130%;
-    background-color:#F0F0F0;
-    z-index: 101;
-    overflow: hidden;
-}
+
 #port1{
  position: absolute;
  display: block;
@@ -267,30 +259,7 @@ color: #010004;
     min-width: 600px;
     max-width: 800px;
 }
-#ideals1{
- position: absolute;
- display: block;
- width: 42%; 
- left: 57%;
- top: -2%;
- z-index: 50;
- text-align: right
-}
-.ideals{
-    font-size: 3em;
-    z-index: 50;
-    color: white;
-}
-#wrapper2{
-    position: absolute;
-    top: 200vh;
-    width: 100%;
-    height: 80vw;
-    background-color: black;
-    z-index: 101;
-    font-size: 50px;
-    text-align:center;
-}
+
 a{
 text-decoration: none;
 }
@@ -687,20 +656,6 @@ something else
         .port3{
         min-width:200px !important;
         min-height:100% !important;
-        }
-#ideals1{
- left: 5% !important;
- top: 20px !important;
-        }
-.ideals{
-    font-size: 30px;
-    color: black;
-}
-       #wrapper2{
-           max-height: 80vw;
-        }
-        .submenu a{
-            font-size: 30px;
         }
         
 }
