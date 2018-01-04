@@ -575,10 +575,10 @@ something else
     } 
         h2 {
             position: fixed;
-            font-size: 100px;
+            text-align: center;
+            font-size: 95px;
             padding-top: 30px;
             overflow-y: hidden;
-            left:0px;
         }
         .boom{
             text-align: left;
