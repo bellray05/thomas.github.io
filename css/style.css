@@ -188,12 +188,11 @@ h1{
      font-family: "Agane";
      color:#010004;
      font-size: 11vw;
-    padding-top: 15vh;
     } 
 h2{
      font-family: "Agane";
      color:#F0F0F0;
-     font-size: 12.5em;
+     font-size: 16.5em;
      z-index: 5;
 }
 h4{
@@ -576,9 +575,8 @@ something else
         h2 {
             position: fixed;
             text-align: center;
-            font-size: 95px;
+            font-size: 6em;
             padding-top: 30px;
-            overflow-y: hidden;
         }
         .boom{
             text-align: left;
