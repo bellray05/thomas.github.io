@@ -192,8 +192,9 @@ h1{
 h2{
      font-family: "Agane";
      color:#F0F0F0;
-     font-size: 14em;
+     font-size: 13em;
      z-index: 5;
+    text-align: center;
 }
 h4{
 z-index: 100;
