@@ -628,19 +628,19 @@ new new
    position:absolute;
   left: 25%;
   transform: translate(-50%, -50%); 
-   width:30%;
+   width:25%;
    height:auto;
    z-index: 100;
-   top:40vw;
+   top:35vw;
 }
 #thesum7{
    position:absolute;
   left: 75%;
   transform: translate(-50%, -50%); 
-   width:30%;
+   width:25%;
    height:auto;
    z-index: 100; 
-     top:40vw;
+     top:35vw;
 }
 /*
 something new
