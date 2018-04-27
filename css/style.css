@@ -179,7 +179,7 @@ h3{
 font-family:"Helvetica Neue";
 font-weight:400;
 font-size: 20px;
-color:whitesmoke;
+color:black;
 z-index: 20;    
 }
 h4{
@@ -251,7 +251,6 @@ a{
 text-decoration: none;
 z-index: 100;
 cursor: pointer;
-    color: whitesmoke;
 }
 
 h5{
@@ -618,7 +617,6 @@ new new
    z-index: 100;
 }
 .thesum5{
-  background-color: aqua;
   position: absolute;
  height: 70vw;
  width: 100%; 
