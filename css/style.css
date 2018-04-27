@@ -923,7 +923,7 @@ something else
          height:70%; 
          float: none;
          top: 80vw;
-         left:40%;
+         left:20%;
         }
         #image1{
         text-align: center;
@@ -952,7 +952,7 @@ something else
          height:80%; 
          float: none;
          top: 230vw;
-         left: 40%;
+         left: 20%;
         }
         #image4{
         top:30vw;
@@ -978,7 +978,7 @@ something else
         width: 100vw;
         float:none;
         top:410vw;
-        left: 40%;
+        left: 20%;
         }
         #image5{
         width: 90%;
@@ -1003,7 +1003,7 @@ something else
         width: 100vw;
         float:none;
         top:600vw;
-        left:40%;
+        left:20%;
         }
         #image6{
         width: 90%;
@@ -1032,7 +1032,7 @@ something else
         width: 100%;
         float: none;
         top:840vw;
-        left:40%;
+        left:20%;
         }
         #image7{
         width:100%;
