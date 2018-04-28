@@ -827,7 +827,7 @@ something else
         padding-top: 15vh;
     } 
         h2 {
-            position: fixed;
+            position: absolute;
             text-align: center;
             font-size: 6em;
             padding-top: 30px;
@@ -913,27 +913,28 @@ something else
         font-size: 25px;
         }
         .big{
+        position: absolute;
         text-align: center;
-        left: 50%;
         top:1vw;
         float: none;
         transform: none;
+        left:40%
         }
         .container3{
          height:70%; 
          float: none;
          top: 80vw;
-         left:20%;
+         left:25%
         }
         #image1{
         text-align: center;
         top:20vw;
-        width:100%;
+        width:100vw;
         left: 50%;
         }
         .text1{
         width: 100vw;
-        left:75%;
+        left:70%;
         top:50vw;
         }
         #image3{
@@ -952,7 +953,7 @@ something else
          height:80%; 
          float: none;
          top: 230vw;
-         left: 20%;
+         left: 25%;
         }
         #image4{
         top:30vw;
@@ -978,7 +979,7 @@ something else
         width: 100vw;
         float:none;
         top:410vw;
-        left: 20%;
+        left: 25%;
         }
         #image5{
         width: 90%;
@@ -1003,7 +1004,7 @@ something else
         width: 100vw;
         float:none;
         top:600vw;
-        left:20%;
+        left:25%;
         }
         #image6{
         width: 90%;
@@ -1032,7 +1033,7 @@ something else
         width: 100%;
         float: none;
         top:840vw;
-        left:20%;
+        left:25%;
         }
         #image7{
         width:100%;
