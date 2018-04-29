@@ -659,7 +659,7 @@ new new
    height:auto;
    z-index: 100; 
    top:10vw;
-   padding-top: 10vw;
+   padding-top: 20vw;
 }
 #ACHS3{
    position:absolute;
@@ -669,7 +669,7 @@ new new
    height:auto;
    z-index: 100; 
      top:13vw;
-    padding-top: 10vw;
+    padding-top: 15vw;
 }
 .ACHS4{
   position: absolute;
@@ -678,7 +678,7 @@ new new
  text-align: left;
   float: left;
  z-index: 100;
-top:25vw;
+top:30vw;
 }
 /*
 something new
