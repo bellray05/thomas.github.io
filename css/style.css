@@ -642,6 +642,44 @@ new new
    z-index: 100; 
      top:35vw;
 }
+.ACHS1{
+  position: absolute;
+ height: 20vw;
+ width: 100%; 
+ text-align: center;
+  float: left;
+ z-index: 100;
+ top:15vw
+}
+#ACHS2{
+  position:absolute;
+  left: 25%;
+  transform: translate(-50%, -50%); 
+   width:25%;
+   height:auto;
+   z-index: 100; 
+   top:10vw;
+   padding-top: 10vw;
+}
+#ACHS3{
+   position:absolute;
+  left: 75%;
+  transform: translate(-50%, -50%); 
+   width:25%;
+   height:auto;
+   z-index: 100; 
+     top:13vw;
+    padding-top: 10vw;
+}
+.ACHS4{
+  position: absolute;
+ height: 30vw;
+ width: 50%; 
+ text-align: left;
+  float: left;
+ z-index: 100;
+top:25vw;
+}
 /*
 something new
 
@@ -918,13 +956,13 @@ something else
         top:1vw;
         float: none;
         transform: none;
-        left:40%
+        left:50%
         }
         .container3{
          height:70%; 
          float: none;
          top: 80vw;
-         left:25%
+         left:33%
         }
         #image1{
         text-align: center;
@@ -938,7 +976,7 @@ something else
         top:50vw;
         }
         #image3{
-        top:80vw;
+        top:90vw;
         width: 90%;
         left: 50%;
         z-index: 20;
@@ -946,14 +984,14 @@ something else
         .text2{
         width:100vw;
         left:75%;
-        top:100vw;
+        top:110vw;
         z-index: 100;
         }
         .container4{
          height:80%; 
          float: none;
          top: 230vw;
-         left: 25%;
+         left: 33%;
         }
         #image4{
         top:30vw;
@@ -979,7 +1017,7 @@ something else
         width: 100vw;
         float:none;
         top:410vw;
-        left: 25%;
+        left: 33%;
         }
         #image5{
         width: 90%;
@@ -1004,7 +1042,7 @@ something else
         width: 100vw;
         float:none;
         top:600vw;
-        left:25%;
+        left:33%;
         }
         #image6{
         width: 90%;
@@ -1020,12 +1058,12 @@ something else
         #image2{
         width:90%;
         left:50%;
-        top:140vw;
+        top:150vw;
         }
         .text8{
         width:100vw;
         left:75%;
-        top:155vw;
+        top:165vw;
         z-index: 100;
         }
         .container7{
@@ -1033,12 +1071,12 @@ something else
         width: 100%;
         float: none;
         top:840vw;
-        left:25%;
+        left:33%;
         }
         #image7{
         width:100%;
         left:50%;
-        top:10vw;
+        top:20vw;
         }
         .text9{
         width:100vw;
@@ -1054,7 +1092,7 @@ something else
         .text11{
         width:100vw;
         left:50%;
-        top:60vw;
+        top:70vw;
         z-index: 100;
         }
         
