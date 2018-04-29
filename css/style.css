@@ -649,7 +649,7 @@ new new
  text-align: center;
   float: left;
  z-index: 100;
- top:15vw
+ top:15vw;
 }
 #ACHS2{
   position:absolute;
