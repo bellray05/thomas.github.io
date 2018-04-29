@@ -678,16 +678,24 @@ new new
  text-align: left;
   float: left;
  z-index: 100;
-top:30vw;
+top:35vw;
 }
 #ACHS5{
+  position: absolute;
+ width: 50%; 
+ text-align: left;
+  float: left;
+ z-index: 100;
+top:7vw;
+}
+.ACHS10{
   position: absolute;
  height: 30vw;
  width: 50%; 
  text-align: left;
   float: left;
  z-index: 100;
-top:30vw;
+top:46vw;
 }
 /*
 something new
@@ -1102,6 +1110,31 @@ something else
         width:100vw;
         left:50%;
         top:70vw;
+        z-index: 100;
+        }
+        .start{
+        position: absolute;
+        text-align: center;
+        left:10%;
+        }
+        .ACHS1{
+         height:70%; 
+         float: none;
+         top: 90vw;
+        }
+        #ACHS2{
+        width:100%;
+        left:50%;
+        top:80vw;
+        }
+        #ACHS3{
+        width:100%;
+        left:50%;
+        top:190vw;   
+        }
+        .ACHS4{
+        width:80vw;
+        top:255vw;
         z-index: 100;
         }
         
