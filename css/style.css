@@ -291,12 +291,12 @@ text-decoration-line: none;
     font-size: 18px;
 }
 .sbux{
-  position: relative;
-  margin: 140px auto;
-  
-    font-family: "helvetica";
-    font: #010004;
-    font-size: 18px;
+  position:absolute;
+  left: 50vw;
+  transform: translate(-50%, -50%); 
+   width:100%;
+   z-index: 90;
+   top: 200px;
 }
 .adi{
   position: relative;
@@ -519,7 +519,7 @@ new new
 }
 .container6{
  position: absolute;
- height: 68%;
+ height: 55%;
  width: 50%;
  top:115vw;
  padding-top: 40%;
@@ -557,8 +557,8 @@ new new
 }
  .text8{
   position:absolute;
-  top: 87vw;
-  left: 15%;
+  top: 53vw;
+  left: 45%;
   transform: translate(-50%, -50%); 
    width:30%;
    height:auto; 
@@ -567,7 +567,7 @@ new new
 }
 .container7{
  position: absolute;
- height: 15%;
+ height: 10%;
  width: 100%; 
  text-align: center;
   float: left;
@@ -583,18 +583,19 @@ new new
    width: 30%;
    height:auto;
    z-index: 9;
-   padding-top: 20%;
+   top: 10vw;
 }
  .text9{
   position:absolute;
   float: left;
-  left: 79%;
+  left: 75%;
   transform: translate(-50%, -50%); 
    width: 30%;
    height:auto;
    text-align: left;
    z-index: 100;
-   bottom: 7vw
+   top:22vw;
+   
 }
 
 #image8{
@@ -622,7 +623,8 @@ new new
  width: 100%; 
  text-align: center;
   float: left;
- z-index: 100;   
+ z-index: 100;
+ top:45vh;
 }
 #thesum6{
    position:absolute;
@@ -631,7 +633,6 @@ new new
    width:25%;
    height:auto;
    z-index: 100;
-   top:35vw;
 }
 #thesum7{
    position:absolute;
@@ -640,7 +641,6 @@ new new
    width:25%;
    height:auto;
    z-index: 100; 
-     top:35vw;
 }
 .ACHS1{
   position: absolute;
@@ -651,6 +651,15 @@ new new
  z-index: 100;
  top:15vw;
 }
+.ACHS50{
+  position: absolute;
+ height: 20vw;
+ width: 100%; 
+ text-align: center;
+  float: left;
+ z-index: 100;
+ top:35vw;
+}
 #ACHS2{
   position:absolute;
   left: 25%;
@@ -660,6 +669,24 @@ new new
    z-index: 100; 
    top:10vw;
    padding-top: 20vw;
+}
+#ACHS52{
+  position:absolute;
+  left: 25%;
+  transform: translate(-50%, -50%); 
+   width:25%;
+   height:auto;
+   z-index: 100; 
+   top:10vw;
+   padding-top: 20vw;
+}
+#ACHS55{
+  position: absolute;
+ width: 50%; 
+ text-align: left;
+  float: left;
+ z-index: 100;
+top:7vw;
 }
 #ACHS3{
    position:absolute;
@@ -695,7 +722,25 @@ top:7vw;
  text-align: left;
   float: left;
  z-index: 100;
-top:46vw;
+top:80vw;
+}
+.ACHS15{
+  position: absolute;
+ height: 30vw;
+ width: 50%; 
+ text-align: left;
+  float: left;
+ z-index: 100;
+ top:90vw;
+}
+.ACHS20{
+  position: absolute;
+ height: 30vw;
+ width: 50%; 
+ text-align: left;
+  float: left;
+ z-index: 100;
+ top:35vw;
 }
 /*
 something new
@@ -878,7 +923,7 @@ something else
       z-index: 100;}
     @media (max-width: 768px) {
    h1 {
-        font-size: 14vw;
+        font-size: 12vw;
         padding-top: 15vh;
     } 
         h2 {
@@ -891,7 +936,9 @@ something else
             text-align: left;
             padding-top: 10px;
         }
-
+        .sbux{
+        top:70vw;
+        }
     div#parallax-bg-3 div{
            height: 420vh;
         }
@@ -1005,9 +1052,9 @@ something else
         z-index: 100;
         }
         .container4{
-         height:80%; 
+         height:40%; 
          float: none;
-         top: 230vw;
+         top: 250vw;
          left: 33%;
         }
         #image4{
@@ -1124,18 +1171,38 @@ something else
         }
         #ACHS2{
         width:100%;
-        left:50%;
+        left:44%;
         top:80vw;
         }
         #ACHS3{
         width:100%;
-        left:50%;
+        left:44%;
         top:190vw;   
         }
         .ACHS4{
         width:80vw;
         top:255vw;
         z-index: 100;
+        }
+        .ACHS10{
+        top:220vw;  
+        }
+        .ACHS15{
+        top:285vw;
+        }
+        .ACHS50{
+        top:70vw;
+        }
+        #ACHS52{
+        top:60vw;
+        width: 90%;
+        left:47%;
+        }
+        #ACHS55{
+        top:135vw;
+        }
+        .ACHS20{
+        top:95vw;
         }
         
 }
