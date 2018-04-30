@@ -273,7 +273,7 @@ text-decoration-line: none;
 }
 #home3 {
     position: absolute;
-    top: 50px;
+    top: 15vw;
     bottom: 0;
     right: 0;
     left: 0;
@@ -931,6 +931,9 @@ something else
             text-align: center;
             font-size: 6em;
             padding-top: 30px;
+        }
+        h4{
+        font-size: 12px;
         }
         .boom{
             text-align: left;
