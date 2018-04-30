@@ -983,17 +983,17 @@ something else
         }
         #image1{
         text-align: center;
-        top:20vw;
+        top:25vw;
         width:100vw;
         left: 50%;
         }
         .text1{
         width: 100vw;
         left:70%;
-        top:50vw;
+        top:55vw;
         }
         #image3{
-        top:90vw;
+        top:105vw;
         width: 90%;
         left: 50%;
         z-index: 20;
@@ -1001,7 +1001,7 @@ something else
         .text2{
         width:100vw;
         left:75%;
-        top:110vw;
+        top:125vw;
         z-index: 100;
         }
         .container4{
@@ -1011,14 +1011,14 @@ something else
          left: 33%;
         }
         #image4{
-        top:30vw;
+        top:50vw;
         width: 90%;
         left:50%;
         }
         .text3{
         width:100vw;
         left:75%;
-        top:52vw;
+        top:75vw;
         z-index: 100;
         }
         #text4{
@@ -1027,13 +1027,13 @@ something else
         top:55vw;
         float: none;
         left: 50%;
-        top:120vw;
+        top:135vw;
         }
         .container5{
         height: 80%;
         width: 100vw;
         float:none;
-        top:410vw;
+        top:435vw;
         left: 33%;
         }
         #image5{
@@ -1064,30 +1064,30 @@ something else
         #image6{
         width: 90%;
         left:50%;
-        top:40vw;
+        top:80vw;
         }
         .text7{
         width:100vw;
         left:85%;
-        top:110vw;
+        top:155vw;
         z-index: 100;
         }
         #image2{
         width:90%;
         left:50%;
-        top:150vw;
+        top:200vw;
         }
         .text8{
         width:100vw;
         left:75%;
-        top:165vw;
+        top:215vw;
         z-index: 100;
         }
         .container7{
         height: 60%;
         width: 100%;
         float: none;
-        top:840vw;
+        top:890vw;
         left:33%;
         }
         #image7{
@@ -1098,7 +1098,7 @@ something else
         .text9{
         width:100vw;
         left:73%;
-        top:165vw;
+        top:65vw;
         z-index: 100;
         }
         #image8{
@@ -1109,7 +1109,7 @@ something else
         .text11{
         width:100vw;
         left:50%;
-        top:70vw;
+        top:170vw;
         z-index: 100;
         }
         .start{
