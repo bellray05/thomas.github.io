@@ -742,6 +742,40 @@ top:80vw;
  z-index: 100;
  top:35vw;
 }
+.pra{
+  position: absolute;
+ height: 70vw;
+ width: 100%; 
+ text-align: center;
+  float: left;
+ z-index: 100;
+}
+#pratitle{
+   position:absolute;
+   left:50%;
+  transform: translate(-50%, -50%); 
+   width:100%;
+   height:5%;
+   z-index: 120;
+}
+#pra1{
+   position:absolute;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+   width:50%;
+   height:auto;
+   z-index: 100;
+   top:65vw;
+}
+#pra2{
+   position:absolute;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+   width:50%;
+   height:auto;
+   z-index: 100;
+   top: 120vw;
+}
 /*
 something new
 
@@ -929,7 +963,7 @@ something else
         h2 {
             position: absolute;
             text-align: center;
-            font-size: 6em;
+            font-size: 5em;
             padding-top: 30px;
         }
         h4{
@@ -1206,6 +1240,14 @@ something else
         }
         .ACHS20{
         top:95vw;
+        }
+        #pra1{
+        top: 120vw;
+        width: 100%;
+        }
+        #pra2{
+        top:270vw;
+        width: 100%;
         }
         
 }
