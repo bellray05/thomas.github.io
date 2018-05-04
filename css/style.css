@@ -754,7 +754,7 @@ top:80vw;
    position:absolute;
    left:50%;
   transform: translate(-50%, -50%); 
-   width:100%;
+   width:80%;
    height:5%;
    z-index: 120;
 }
@@ -1049,7 +1049,7 @@ something else
         min-height:100% !important;
         }
         h4{
-        font-size: 25px;
+        font-size: 18px;
         }
         .big{
         position: absolute;
