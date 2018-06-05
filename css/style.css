@@ -161,30 +161,24 @@ div#bg-1-5{
     max-width: 800px;
     min-width: 250px;
 }
+
+h3{
+font-family:"Helvetica Neue";
+font-weight:400;
+font-size: 20px;
+color:white;
+z-index: 200;    
+}
+h4{
+z-index: 100;
+color: black;
+}
 h1{
      font-family:"Avenir Next";
      color: white;
     font-weight: 700;
     font-size: 8vw;
 }
-        h2{
-         font-family:"Avenir Next";
-         color: black;
-         font-weight: 700;
-         font-size: 6vw;
-         text-align: left;
-        }
-        h3{
-        font-family:"Georgia";
-        color: black;
-        font-weight: 500;
-        font-size: 3vw;
-        }
-h4{
-z-index: 100;
-color: black;
-}
-
 #port1{
  position: absolute;
  display: block;
@@ -271,6 +265,14 @@ text-decoration-line: none;
    width:100%;
    z-index: 90;
    top: 200px;
+}
+.sbux2{
+  position:absolute;
+  left: 80vw;
+  transform: translate(-50%, -50%); 
+   width:100%;
+   z-index: 90;
+   top: 290px;
 }
 .adi{
   position: relative;
@@ -1052,11 +1054,20 @@ something else
             padding-top: 10px;
         }
         .sbux{
-        top:68vw;
+        top:78vw;
         text-align: left;
         padding-left:10px;
         padding-right: 10px;
         font-size: 20px;
+        left:20%;
+        }
+       .sbux2{
+        top:90vw;
+        text-align: left;
+        padding-left:10px;
+        padding-right: 10px;
+        font-size: 20px;
+        left:55%;
         }
     div#parallax-bg-3 div{
            height: 420vh;
@@ -1142,10 +1153,10 @@ something else
         .big{
         position: absolute;
         text-align: center;
-        top:-1%;
+        top:1%;
         float: none;
         transform: none;
-        left:50%
+        left:60%
         }
         h1{
         color:black !important;
