@@ -161,33 +161,24 @@ div#bg-1-5{
     max-width: 800px;
     min-width: 250px;
 }
-h1{
-     font-family: "Agane";
-     color:#010004;
-     font-size: 11vw;
-    } 
-h2{
-     font-family: "Agane";
-     color:#F0F0F0;
-     font-size: 9em;
-     z-index: 5;
-    text-align: center;
-    font-weight: 400;
-}
+
 h3{
 font-family:"Helvetica Neue";
 font-weight:400;
 font-size: 20px;
-color:black;
-z-index: 20;    
+color:white;
+z-index: 200;    
 }
 h4{
 z-index: 100;
 color: black;
 }
-
-
-
+h1{
+     font-family:"Avenir Next";
+     color: white;
+    font-weight: 700;
+    font-size: 8vw;
+}
 #port1{
  position: absolute;
  display: block;
@@ -227,6 +218,7 @@ a{
 text-decoration: none;
 z-index: 100;
 cursor: pointer;
+color: white;
 }
 
 h5{
@@ -1140,14 +1132,18 @@ something else
         .big{
         position: absolute;
         text-align: center;
-        top:2%;
+        top:-1%;
         float: none;
         transform: none;
-        left:70%
+        left:50%
+        }
+        h1{
+        font-size: 80px !important;
+        color:black !important;
+        font-family:"Avenir Next";
         }
         h2{
-        font-size: 50px !important;
-        color:black !important;
+        font-size: 12vw !important;
         }
         .container3{
          height:70%; 
@@ -1163,8 +1159,8 @@ something else
         }
         .text1{
         width: 100vw;
-        left:70%;
-        top:55vw;
+        left:75%;
+        top:56vw;
         }
         #image3{
         top:105vw;
@@ -1197,11 +1193,10 @@ something else
         }
         #text4{
         font-size: 40px;
-        left:20vw;
         top:55vw;
         float: none;
-        left: 50%;
-        top:135vw;
+        left: 55%;
+        top:130vw;
         }
         .container5{
         height: 20%;
@@ -1222,17 +1217,15 @@ something else
         z-index: 100;
         }
         #text5{
-        top:150vw;
+        top:196vw;
         float:none;
         left:50%;
-        font-size:4em !important;
-        width: 100%;
         }
         .container6{
         height: 20%;
         width: 100vw;
         float:none;
-        top:600vw;
+        top:700vw;
         left:33%;
         }
         #image6{
@@ -1253,7 +1246,7 @@ something else
         }
         .text8{
         width:100vw;
-        left:75%;
+        left:65%;
         top:215vw;
         z-index: 100;
         }
@@ -1261,7 +1254,7 @@ something else
         height: 20%;
         width: 100%;
         float: none;
-        top:890vw;
+        top:990vw;
         left:33%;
         }
         #image7{
@@ -1290,7 +1283,7 @@ something else
         height: 20%;
         width: 100%;
         float: none;
-        top:960vw;
+        top:1060vw;
         left:33%;
         }
         #image10{
@@ -1300,8 +1293,8 @@ something else
         }
         .text12{
         width:100vw;
-        left:75%;
-        top:170vw;
+        left:71%;
+        top:172vw;
         z-index: 100;
         }
         .start{
@@ -1361,41 +1354,51 @@ something else
       #thomas{
       left: 52%; 
        width: 85%;
-       padding-top: 95%;
+       padding-top: 105%;
 }
 
      .thomasraybell{
       left: 28%;
       width:35%;
-       padding-top: 105%;
+       padding-top: 120%;
 }
         .thomasraybelltext{
-           padding-top: 575%;
-           left:104%;
+           padding-top: 590%;
+           left:103%;
            width:200%;
            height:auto;
 }
         h3{
         font-size: 25px !important;
         }
+      a{
+        text-decoration: none;
+        color: black;
+        }
     .line{
     position:fixed;
     right: 5%;
-    top: 2%;
+    top: 1%;
     z-index: 100;
 }
-  .foot{
-    position:fixed;
-    left: 5%;
-    z-index: 100;
-    top: 93%;
-}
-  .foot2{
-    position:fixed;
-    left: 5%;
-    top: 98%;
-    z-index: 100;
-}
+        .sidenav a {
+        padding-top: 15%
+        }
+        .sidenav .closebtn {
+        top:-5%;  
+        }
+       .foot{
+        position:fixed;
+        left: 5%;
+        z-index: 100;
+        top: 93%;
+    }
+        .foot2{
+        position:fixed;
+        left: 5%;
+        top: 98%;
+        z-index: 100;
+    }
 }
 
     
