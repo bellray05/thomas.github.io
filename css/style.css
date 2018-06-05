@@ -1378,6 +1378,12 @@ something else
         h3{
         font-size: 25px !important;
         }
+    .line{
+    position:fixed;
+    right: 5%;
+    top: 2%;
+    z-index: 100;
+}
   .foot{
     position:fixed;
     left: 5%;
