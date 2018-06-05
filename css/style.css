@@ -260,15 +260,15 @@ text-decoration-line: none;
 }
 .sbux{
   position:absolute;
-  left: 50vw;
+  left: 84vw;
   transform: translate(-50%, -50%); 
    width:100%;
    z-index: 90;
-   top: 200px;
+   top: 400px;
 }
 .sbux2{
   position:absolute;
-  left: 80vw;
+  left: 40vw;
   transform: translate(-50%, -50%); 
    width:100%;
    z-index: 90;
@@ -1054,20 +1054,20 @@ something else
             padding-top: 10px;
         }
         .sbux{
-        top:78vw;
+        top:85vw;
         text-align: left;
         padding-left:10px;
         padding-right: 10px;
         font-size: 20px;
-        left:20%;
+        left:53%;
         }
        .sbux2{
-        top:90vw;
+        top:85vw;
         text-align: left;
         padding-left:10px;
         padding-right: 10px;
         font-size: 20px;
-        left:55%;
+        left:25%;
         }
     div#parallax-bg-3 div{
            height: 420vh;
