@@ -1132,19 +1132,20 @@ something else
         font-size: 18px;
         }
         .container{
-         position: absolute;
-         height:1100vw;
-         width:100vw;
-         background-color: black;
+         height:900%;
+         width:375%;
          left: 10%;
 }
         .big{
         position: absolute;
         text-align: center;
-        top:1vw;
+        top:2%;
         float: none;
         transform: none;
         left:55%
+        }
+        h2{
+        font-size:55px;
         }
         .container3{
          height:70%; 
