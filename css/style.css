@@ -1,8 +1,7 @@
 
 body{
-  background:white;
-  width: 100%;
-  height: 100%;
+  background:#fff;
+
 }	
 
 /* foreground */
@@ -187,30 +186,7 @@ z-index: 100;
 color: black;
 }
 
- #statement{
-    position: relative;
-    right:0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: 5;
-    top:15vw;
-}
 
- #home {
-    position: fixed;
-    right:0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -50;
-    background-size: cover;
-    overflow: hidden;
-}
 
 #port1{
  position: absolute;
@@ -326,19 +302,21 @@ text-decoration-line: none;
     z-index: 200;
     top: 0;
     left: 0;
-    background-color: #010004;
+    background-color: white;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
-    text-align:center;
+    text-align:right;
+    padding-top: 5%;
 }
 
 .sidenav a {
-    font-family: "Agane";
-    padding: 80px 10px 10px 10px;
+    font-family: "helvetica";
+    font-weight: 300;
+    padding-top: 5%;
+    padding-right: 6%;
     text-decoration: none;
     font-size: 40px;
-    color: white;
+    color: black;
     display: block;
     transition: 0.3s;
 
@@ -346,7 +324,7 @@ text-decoration-line: none;
 
 .sidenav .closebtn {
     position: absolute;
-    top: 0;
+    top: -1%;
     right: 25px;
     font-size: 50px;
     margin-left: 50px;
@@ -358,6 +336,63 @@ text-decoration-line: none;
 /*
 new new
 */
+.raybell{
+ position: absolute;
+ height: 90%;
+ width: 90%; 
+ text-align: center;
+  float: left;
+  left:5%;
+  top: 5%;
+  z-index: 100;
+  overflow:auto;
+  background-color: white;
+}
+
+  #thomas{
+  position:absolute;
+  left: 35%;
+  transform: translate(-50%, -50%); 
+   width: 55%;
+   max-width: 1300px;
+   height:auto;
+   z-index: 100;
+   padding-top: 45%;
+   overflow: hidden;
+}
+
+ .thomasraybell{
+  position:absolute;
+  left: 83%;
+  transform: translate(-50%, -50%); 
+  width:35%;
+  height:auto;
+   z-index: 110;
+   text-align: left; 
+   padding-top: 59%;
+}
+.thomasraybelltext{
+   position:absolute;
+   padding-top: 35%;
+  left:-40%;
+  transform: translate(-50%, -50%); 
+   width:220%;
+   height:auto;
+   z-index: 110;
+   text-align: left;
+}
+  .foot{
+    position:fixed;
+    left: 5%;
+    z-index: 100;
+    top: 95%;
+}
+  .foot2{
+    position:fixed;
+    right: 5%;
+    top: 95%;
+    z-index: 100;
+}
 .reveal {
   opacity: 0;
   -webkit-transform: translate3d(0, 100px, 0);
@@ -384,17 +419,27 @@ new new
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.container{
+ position: absolute;
+ height:264vw;
+ width:90vw;
+ background-color: black;
+ left: 5%;
+}
 .container2{
  height:30vw;
- width:100vw;
+ width:90vw;
+ 
 }
 .container3{
  position: absolute;
- height: 15%;
- width: 100%; 
+ left: 3%;
+ height: 20%;
+ width: 95%; 
  text-align: center;
   float: left;
-  padding-top: 10%;
+  padding-top: 38%;
   z-index: 100;
 }
 
@@ -405,6 +450,7 @@ new new
    width:30%;
    height:auto;
    z-index: 100;
+   padding-top: 10%;
 }
  .text1{
   text-align: left;
@@ -413,7 +459,7 @@ new new
   transform: translate(-50%, -50%); 
    width:30%;
    height:auto;
-   padding-top: 17%;
+   padding-top: 28%;
    z-index: 150;
 }
  #image3{
@@ -482,7 +528,7 @@ new new
 }
 .container5{
  position: absolute;
- height: 68%;
+ height: 28%;
  width: 50%;
  top:95vw;
  text-align: center;
@@ -501,7 +547,7 @@ new new
  .text6{
    position:absolute;
   top:32vw;
-  left: 35%;
+  left: 53%;
   transform: translate(-50%, -50%);
    height:auto;
    z-index: -5;
@@ -515,11 +561,10 @@ new new
   width: 80%;
   transform: translate(-50%, -50%);
   z-index: 10;
-  font-size: 50px;
 }
 .container6{
  position: absolute;
- height: 55%;
+ height: 25%;
  width: 50%;
  top:115vw;
  padding-top: 40%;
@@ -530,7 +575,7 @@ new new
  #image6{
   position:absolute;
   float: left;
-  left: 55%;
+  left: 52%;
   transform: translate(-50%, -50%); 
    width: 95%;
    height:auto;
@@ -577,7 +622,7 @@ new new
 }
 .container8{
  position: absolute;
- height: 20%;
+ height: 5%;
  width: 50%;
   float: left;
   z-index: 90;
@@ -980,10 +1025,16 @@ something else
     border-bottom: none;
     }}
   .line{
-                       position:fixed;
-                       right: 5%;
-                       top: 1.5%;
-      z-index: 100;}
+    position:fixed;
+    right: 5%;
+    top: 1%;
+    z-index: 100;
+}
+.line2{
+    position:fixed;
+    left: 4%;
+    z-index: 100;
+}
     @media (max-width: 768px) {
    h1 {
         font-size: 12vw;
@@ -1080,6 +1131,13 @@ something else
         h4{
         font-size: 18px;
         }
+        .container{
+         position: absolute;
+         height:1100vw;
+         width:100vw;
+         background-color: black;
+         left: 10%;
+}
         .big{
         position: absolute;
         text-align: center;
@@ -1143,7 +1201,7 @@ something else
         top:135vw;
         }
         .container5{
-        height: 80%;
+        height: 20%;
         width: 100vw;
         float:none;
         top:435vw;
@@ -1168,7 +1226,7 @@ something else
         width: 100%;
         }
         .container6{
-        height: 90%;
+        height: 20%;
         width: 100vw;
         float:none;
         top:600vw;
@@ -1197,7 +1255,7 @@ something else
         z-index: 100;
         }
         .container7{
-        height: 60%;
+        height: 20%;
         width: 100%;
         float: none;
         top:890vw;
@@ -1226,7 +1284,7 @@ something else
         z-index: 100;
         }
         .container8{
-        height: 60%;
+        height: 20%;
         width: 100%;
         float: none;
         top:960vw;

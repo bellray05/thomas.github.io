@@ -20,8 +20,14 @@ function closeNav() {
 }
 </script>
     <style>
+        body{
+        background-color: black;
+        }
         h4{
             color:white;
+        }
+        h5{
+         color:white;
         }
         .navigation{
             background: #010004;
@@ -29,11 +35,24 @@ function closeNav() {
         .navigation a{
             color:white;
         }
+        h2{
+         font-family:"Avenir Next";
+         color: black;
+         font-weight: 700;
+         font-size: 6vw;
+         text-align: left;
+        }
+        h3{
+        font-family:"Georgia";
+        color: black;
+        font-weight: 500;
+        font-size: 3vw;
+        }
     </style>
 </head>
 <body>
-<ul class="navigation">
-  <li><a href="index.html"><h4>Raybell</h4></a></li>
+<ul class="navigation"><div class="line2">
+    <li><a href="index.html"><h4>Raybell</h4></a></li></div>
   <li><a href="#"><span style="font-size:40px;cursor:pointer; position: fixed; top: 0; width: 100%;" onclick="openNav()"> <div class="line">&#9776;</div></span></a></li>
 </ul>
 
@@ -44,16 +63,14 @@ function closeNav() {
     <a href="work.html">Work</a>
   <a href="contact.html">Contact</a>
 </div>
-<div id="statement">
-    <h2>Designer & Art Director</h2>
+
+ <div class="raybell">
+         <img id="thomas" src="assets/Homeimage.jpg"><div class="thomasraybell"><h2>Art Director</h2><div class="thomasraybelltext"><h3>Despite what is popular, or tending. I'm more interested in things of value, design that repressents its own true and only what is essential of itself. I hope to attract those of a similar mind.</h3></div>
+     </div>
     </div>
-<video id="home" playsinline autoplay loop muted poster="assets/homepage.png">
-  <source src="assets/weboptimized1.mp4" type="video/mp4"/>
-  <source src="assets/Comp%202%20copy.mp4" type="video/mp4"/>
-  <source src="assets/Comp-1-copy.ogg" type="video/ogg" />
-  <source src="assets/Comp-1-copy.webm" type="video/webm" />
-  Your browser does not support the video tag.
-</video>
+    <div class="foot"><h5>Designed and developed by Thomas Raybell.</h5></div>
+    <div class="foot2"><h5>All rights reserved. &copy;</h5></div>
+    
 </body>
 <footer></footer>
 </html>
