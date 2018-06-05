@@ -161,24 +161,30 @@ div#bg-1-5{
     max-width: 800px;
     min-width: 250px;
 }
-
-h3{
-font-family:"Helvetica Neue";
-font-weight:400;
-font-size: 20px;
-color:white;
-z-index: 200;    
-}
-h4{
-z-index: 100;
-color: black;
-}
 h1{
      font-family:"Avenir Next";
      color: white;
     font-weight: 700;
     font-size: 8vw;
 }
+        h2{
+         font-family:"Avenir Next";
+         color: black;
+         font-weight: 700;
+         font-size: 6vw;
+         text-align: left;
+        }
+        h3{
+        font-family:"Georgia";
+        color: black;
+        font-weight: 500;
+        font-size: 3vw;
+        }
+h4{
+z-index: 100;
+color: black;
+}
+
 #port1{
  position: absolute;
  display: block;
@@ -1029,7 +1035,7 @@ something else
 }
     @media (max-width: 768px) {
    h1 {
-        font-size: 12vw;
+        font-size: 11vw;
         padding-top: 15vh;
     } 
         h2 {
@@ -1039,7 +1045,7 @@ something else
             padding-top: 30px;
         }
         h4{
-        font-size: 12px;
+        font-size: 11px;
         }
         .boom{
             text-align: left;
@@ -1142,7 +1148,6 @@ something else
         left:50%
         }
         h1{
-        font-size: 80px !important;
         color:black !important;
         font-family:"Avenir Next";
         }
