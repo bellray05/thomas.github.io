@@ -1146,7 +1146,7 @@ something else
         font-size: 12vw !important;
         }
         .container3{
-         height:70%; 
+         height:20%; 
          float: none;
          top: 80vw;
          left:33%
@@ -1175,34 +1175,33 @@ something else
         z-index: 100;
         }
         .container4{
-         height:40%; 
+         height:30%; 
          float: none;
-         top: 250vw;
+         top: 270vw;
          left: 33%;
         }
         #image4{
-        top:50vw;
+        top:40vw;
         width: 90%;
         left:50%;
         }
         .text3{
         width:100vw;
         left:75%;
-        top:75vw;
+        top:65vw;
         z-index: 100;
         }
         #text4{
         font-size: 40px;
-        top:55vw;
         float: none;
         left: 55%;
-        top:130vw;
+        top:120vw;
         }
         .container5{
         height: 20%;
         width: 100vw;
         float:none;
-        top:435vw;
+        top:455vw;
         left: 33%;
         }
         #image5{
@@ -1280,21 +1279,22 @@ something else
         z-index: 100;
         }
         .container8{
-        height: 20%;
+        height: 15%;
         width: 100%;
         float: none;
-        top:1060vw;
+        top:1240vw;
         left:33%;
+        z-index: 300;
         }
         #image10{
         width:50%;
         left:50%;
-        top:170vw;
+        top:10vw;
         }
         .text12{
         width:100vw;
         left:71%;
-        top:172vw;
+        top:15vw;
         z-index: 100;
         }
         .start{
@@ -1385,7 +1385,7 @@ something else
         padding-top: 15%
         }
         .sidenav .closebtn {
-        top:-5%;  
+        top:-6%;  
         }
        .foot{
         position:fixed;
