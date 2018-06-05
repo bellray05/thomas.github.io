@@ -1357,59 +1357,32 @@ something else
         top:270vw;
         width: 100%;
         }
-        .raybell{
-         position: absolute;
-         height: 90%;
-         width: 90%; 
-         text-align: center;
-          float: left;
-          left:5%;
-          top: 5%;
-          z-index: 100;
-          overflow:auto;
-          background-color: white;
-}
 
       #thomas{
-      position:absolute;
-      left: 52%;
-      transform: translate(-50%, -50%); 
+      left: 52%; 
        width: 85%;
-       max-width: 1300px;
-       height:auto;
-       z-index: 100;
        padding-top: 95%;
-       overflow: hidden;
 }
 
      .thomasraybell{
-      position:absolute;
       left: 28%;
-      transform: translate(-50%, -50%); 
       width:35%;
-      height:auto;
-       z-index: 110;
-       text-align: left; 
-       padding-top: 90%;
+       padding-top: 105%;
 }
         .thomasraybelltext{
-           position:absolute;
-           padding-top: 405%;
+           padding-top: 575%;
            left:104%;
-          transform: translate(-50%, -50%); 
            width:200%;
            height:auto;
-           z-index: 110;
-           text-align: left;
 }
         h3{
-        25px;
+        font-size: 25px !important;
         }
   .foot{
     position:fixed;
     left: 5%;
     z-index: 100;
-    top: 95%;
+    top: 93%;
 }
   .foot2{
     position:fixed;
