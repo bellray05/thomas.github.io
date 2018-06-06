@@ -266,13 +266,21 @@ text-decoration-line: none;
    z-index: 90;
    top: 400px;
 }
-.sbux2{
+.moviepass{
+  position:absolute;
+  left: 85vw;
+  transform: translate(-50%, -50%); 
+   width:100%;
+   z-index: 90;
+   top: 15%;
+}
+.moviepass2{
   position:absolute;
   left: 40vw;
   transform: translate(-50%, -50%); 
    width:100%;
    z-index: 90;
-   top: 290px;
+   top: 34%;
 }
 .adi{
   position: relative;
@@ -723,7 +731,16 @@ new new
  text-align: center;
   float: left;
  z-index: 100;
- top:15vw;
+ top:5vw;
+}
+.agnecyrole{
+  position: absolute;
+ height: 20vw;
+ width: 100%; 
+ text-align: center;
+  float: left;
+ z-index: 100;
+ top:20vw;
 }
 .ACHS50{
   position: absolute;
@@ -741,17 +758,17 @@ new new
    width:25%;
    height:auto;
    z-index: 100; 
-   top:20vw;
+   top:40vw;
    padding-top: 20vw;
 }
 #ACHS52{
   position:absolute;
-  left: 25%;
+  left: 50%;
   transform: translate(-50%, -50%); 
-   width:25%;
+   width:38%;
    height:auto;
    z-index: 100; 
-   top:10vw;
+   top:35vw;
    padding-top: 20vw;
 }
 #ACHS55{
@@ -760,7 +777,8 @@ new new
  text-align: left;
   float: left;
  z-index: 100;
-top:7vw;
+top:60vw;
+left:20%
 }
 #ACHS3{
    position:absolute;
@@ -769,7 +787,7 @@ top:7vw;
    width:25%;
    height:auto;
    z-index: 100; 
-     top:20vw;
+     top:44vw;
     padding-top: 15vw;
 }
 .ACHS4{
@@ -800,12 +818,12 @@ top:80vw;
 }
 .ACHS15{
   position: absolute;
+ left:25%;
  height: 30vw;
  width: 50%; 
  text-align: left;
-  float: left;
  z-index: 100;
- top:90vw;
+ top:65vw;
 }
 .ACHS20{
   position: absolute;
@@ -814,7 +832,8 @@ top:80vw;
  text-align: left;
   float: left;
  z-index: 100;
- top:35vw;
+ top:185vw;
+ left:25%
 }
 .pra{
   position: absolute;
@@ -1061,13 +1080,17 @@ something else
         font-size: 20px;
         left:53%;
         }
-       .sbux2{
+        .moviepass{
+        left:54%;
+        top:6%
+        }
+       .moviepass2{
         top:85vw;
         text-align: left;
         padding-left:10px;
         padding-right: 10px;
         font-size: 20px;
-        left:25%;
+        left:22%;
         }
     div#parallax-bg-3 div{
            height: 420vh;
@@ -1325,17 +1348,17 @@ something else
         .ACHS1{
          height:70%; 
          float: none;
-         top: 90vw;
+         top: 5vw;
         }
         #ACHS2{
         width:100%;
         left:50%;
-        top:80vw;
+        top:140vw;
         }
         #ACHS3{
         width:100%;
         left:50%;
-        top:190vw;   
+        top:230vw;   
         }
         .ACHS4{
         width:80vw;
@@ -1346,21 +1369,33 @@ something else
         top:220vw;  
         }
         .ACHS15{
-        top:285vw;
+        top:275vw;
+        width:100vw;
+        left:2%;
+        }
+        .agnecyrole{
+        position: absolute;
+        top:25%;
+        text-align: left;
+        left:1%
         }
         .ACHS50{
         top:70vw;
         }
         #ACHS52{
-        top:60vw;
+        top:100vw;
         width: 90%;
         left:47%;
         }
         #ACHS55{
-        top:135vw;
+        top:145vw;
+        width:90%;
+        left:5%
         }
         .ACHS20{
-        top:95vw;
+        top:350vw;
+        width: 90%;
+        left:2%;
         }
         #pra1{
         top: 140vw;
@@ -1391,6 +1426,9 @@ something else
         h3{
         font-size: 25px !important;
         color: black;
+        }
+        h5{
+        color: black !important;
         }
       a{
         text-decoration: none;
