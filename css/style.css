@@ -558,7 +558,7 @@ new new
 }
  .text6{
    position:absolute;
-  top:32vw;
+  top:33vw;
   left: 53%;
   transform: translate(-50%, -50%);
    height:auto;
@@ -1253,7 +1253,7 @@ something else
         .text6{
         width:100vw;
         left:50%;
-        top:114vw;
+        top:117vw;
         z-index: 100;
         }
         #text5{
@@ -1271,11 +1271,11 @@ something else
         #image6{
         width: 90%;
         left:50%;
-        top:80vw;
+        top:81vw;
         }
         .text7{
         width:100vw;
-        left:85%;
+        left:82%;
         top:155vw;
         z-index: 100;
         }
