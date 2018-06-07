@@ -471,7 +471,7 @@ new new
   transform: translate(-50%, -50%); 
    width:30%;
    height:auto;
-   padding-top: 28%;
+   padding-top: 32%;
    z-index: 150;
 }
  #image3{
@@ -849,11 +849,14 @@ top:80vw;
 }
 #pratitle{
    position:absolute;
+   padding-top: 20%;
    left:50%;
   transform: translate(-50%, -50%); 
-   width:80%;
+   width:100%;
    height:5%;
    z-index: 120;
+   text-align: left;
+   margin-left: 3%;
 }
 #pra1{
    position:absolute;
@@ -1334,7 +1337,7 @@ something else
         }
         .text12{
         width:100vw;
-        left:71%;
+        left:66%;
         top:15vw;
         z-index: 100;
         }
@@ -1404,6 +1407,10 @@ something else
         #pra2{
         top:270vw;
         width: 100%;
+        }
+        #pratitle{
+         position: absolute;
+         top: 20%;
         }
 
       #thomas{
