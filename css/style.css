@@ -615,9 +615,9 @@ new new
  .text8{
   position:absolute;
   top: 53vw;
-  left: 45%;
+  left: 48%;
   transform: translate(-50%, -50%); 
-   width:30%;
+   width:40%;
    height:auto; 
    text-align: left;
    z-index: 150;
@@ -674,7 +674,7 @@ new new
  .text9{
   position:absolute;
   float: left;
-  left: 75%;
+  left: 65%;
   transform: translate(-50%, -50%); 
    width: 30%;
    height:auto;
@@ -1307,8 +1307,8 @@ something else
         }
         .text9{
         width:100vw;
-        left:73%;
-        top:65vw;
+        left:66%;
+        top:61vw;
         z-index: 100;
         }
         #image8{
