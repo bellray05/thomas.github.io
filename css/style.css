@@ -876,6 +876,24 @@ top:80vw;
    z-index: 100;
    top: 120vw;
 }
+#pra3{
+   position:absolute;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+   width:50%;
+   height:auto;
+   z-index: 100;
+   top: 165vw;
+}
+#pra4{
+   position:absolute;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+   width:50%;
+   height:auto;
+   z-index: 100;
+   top: 195vw;
+}
 /*
 something new
 
