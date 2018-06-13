@@ -386,7 +386,7 @@ new new
 .thomasraybelltext{
    position:absolute;
    padding-top: 35%;
-  left:-40%;
+  left:-50%;
   transform: translate(-50%, -50%); 
    width:220%;
    height:auto;
@@ -1289,7 +1289,7 @@ something else
         }
         .text8{
         width:100vw;
-        left:65%;
+        left:70%;
         top:215vw;
         z-index: 100;
         }
@@ -1307,7 +1307,7 @@ something else
         }
         .text9{
         width:100vw;
-        left:66%;
+        left:70%;
         top:61vw;
         z-index: 100;
         }
@@ -1337,7 +1337,7 @@ something else
         }
         .text12{
         width:100vw;
-        left:66%;
+        left:71%;
         top:15vw;
         z-index: 100;
         }
@@ -1378,6 +1378,7 @@ something else
         }
         .agnecyrole{
         position: absolute;
+        padding-top: 15%;
         top:25%;
         text-align: left;
         left:1%
@@ -1425,13 +1426,13 @@ something else
        padding-top: 120%;
 }
         .thomasraybelltext{
-           padding-top: 590%;
-           left:103%;
+           padding-top: 530%;
+           left:100%;
            width:200%;
            height:auto;
 }
         h3{
-        font-size: 25px !important;
+        font-size: 21px !important;
         color: black;
         margin-left: 3%;
         }
