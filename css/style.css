@@ -272,7 +272,7 @@ text-decoration-line: none;
 }
 .moviepass{
   position:absolute;
-  left: 85vw;
+  left: 72vw;
   transform: translate(-50%, -50%); 
    width:100%;
    z-index: 90;
@@ -1459,7 +1459,7 @@ something else
            height:auto;
 }
         h3{
-        font-size: 15px;
+        font-size: 21px !important;
         color: black;
         margin-left: 3%;
         }
