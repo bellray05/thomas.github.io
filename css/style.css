@@ -241,7 +241,7 @@ text-decoration-line: none;
 }
 #home3 {
     position: absolute;
-    top: 15%;
+    top: 50%;
     bottom: 0;
     right: 0;
     left: 0;
@@ -277,6 +277,7 @@ text-decoration-line: none;
    width:100%;
    z-index: 90;
    top: 15%;
+   text-align: left;
 }
 .moviepass2{
   position:absolute;
@@ -1458,7 +1459,7 @@ something else
            height:auto;
 }
         h3{
-        font-size: 12px;
+        font-size: 15px;
         color: black;
         margin-left: 3%;
         }
