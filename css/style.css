@@ -228,7 +228,7 @@ text-decoration-line: none;
 }
 #home2 {
     position: absolute;
-    top: 20%;
+    top: 80%;
     bottom: 0;
     right: 0;
     left: 0;
@@ -892,7 +892,7 @@ top:80vw;
    width:50%;
    height:auto;
    z-index: 100;
-   top: 195vw;
+   top: 205vw;
 }
 /*
 something new
@@ -1425,6 +1425,14 @@ something else
         }
         #pra2{
         top:270vw;
+        width: 100%;
+        }
+        #pra3{
+        top:370vw;
+        width: 100%;
+        }
+        #pra4{
+        top:470vw;
         width: 100%;
         }
         #pratitle{
