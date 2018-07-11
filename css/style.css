@@ -588,19 +588,19 @@ new new
   float: left;
   left: 52%;
   transform: translate(-50%, -50%); 
-   width: 95%;
+   width: 75%;
    height:auto;
    z-index: 300;
 }
  .text7{
   position:absolute;
   float: left;
-  left: 13%;
+  left: 23%;
   transform: translate(-50%, -50%); 
    width: 20%;
    height:auto; 
    z-index: 100;
-   top:35vw
+   top:28vw
 }
  #image2{
   position:absolute;
