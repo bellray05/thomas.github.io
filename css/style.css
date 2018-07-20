@@ -557,7 +557,7 @@ new new
    position:absolute;
    text-align: center;
   top:32vw;
-  left: 25%;
+  left: 27%;
   transform: translate(-50%, -50%);
    height:auto;
    z-index: -5;
@@ -594,13 +594,13 @@ new new
 }
  .text7{
   position:absolute;
-  float: left;
-  left: 23%;
+  text-align: center;
+  left: 28%;
   transform: translate(-50%, -50%); 
-   width: 20%;
+   width: 30%;
    height:auto; 
    z-index: 100;
-   top:28vw
+   top:27vw
 }
  #image2{
   position:absolute;
@@ -614,11 +614,11 @@ new new
  .text8{
   position:absolute;
   top: 53vw;
-  left: 48%;
+  left: 41%;
   transform: translate(-50%, -50%); 
    width:40%;
    height:auto; 
-   text-align: left;
+   text-align: center;
    z-index: 150;
 }
 .container7{
@@ -651,12 +651,11 @@ new new
 }
 .text12{
   position:absolute;
-  float: left;
-  left: 32%;
+  text-align: center;
+  left: 19%;
   transform: translate(-50%, -50%); 
-   width: 50%;
+   width: 30%;
    height:auto;
-   text-align: left;
    z-index: 100;
    top:2vw; 
 }
@@ -1352,7 +1351,7 @@ something else
         }
         .text8{
         width:100vw;
-        left:70%;
+        left:50%;
         top:215vw;
         z-index: 100;
         }
@@ -1400,7 +1399,7 @@ something else
         }
         .text12{
         width:100vw;
-        left:71%;
+        left:50%;
         top:15vw;
         z-index: 100;
         }
