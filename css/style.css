@@ -1350,8 +1350,8 @@ something else
         top:200vw;
         }
         .text8{
-        width:100vw;
-        left:50%;
+        width:80vw;
+        left:49%;
         top:215vw;
         z-index: 100;
         }
@@ -1363,13 +1363,13 @@ something else
         left:33%;
         }
         #image7{
-        width:100%;
+        width:90%;
         left:50%;
         top:20vw;
         }
         .text9{
         width:100vw;
-        left:70%;
+        left:75%;
         top:61vw;
         z-index: 100;
         }
