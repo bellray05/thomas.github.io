@@ -1,8 +1,75 @@
+* {
+  box-sizing: border-box;
+}
 
-body{
-  background:#fff;
+html {
+  height: 100%;
+}
 
-}	
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.slideshow {
+  position: absolute;
+  height:50%;
+  width: 50%;
+  overflow:hidden;
+  right: 50px;
+  top: 25%;
+}
+.slideshow__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  font-size: 0;
+  height: 100%;
+  transition: all 0.6s cubic-bezier(0.36, 0.245, 0.155, 0.99);
+}
+.slideshow__item {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: inline-block;
+}
+.slideshow__image {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.slideshow__nav {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 20;
+  color: black;
+  font-size: 1.25em;
+  cursor: pointer;
+  background-color: none;
+  opacity: 0.5;
+}
+.slideshow__nav.is-inactive {
+  opacity: 0.5;
+  cursor: default;
+}
+.slideshow__nav.is-active {
+  opacity: 1;
+}
+.slideshow__nav svg {
+  display: block;
+}
+.slideshow__nav--next {
+  right: 0;
+}
+.slideshow__nav--prev {
+  left: 0;
+}
 
 /* foreground */
 div#parallax-bg-1{
@@ -163,22 +230,13 @@ div#bg-1-5{
 }
 
 h3{
-font-family:"Helvetica Neue";
-font-weight:400;
+ font-family:"Neue Haas Grotesk Display Pro";
+font-weight:40;
 font-size: 20px;
 color:black;
 z-index: 200;    
 }
-h4{
-z-index: 100;
-color: black;
-}
-h1{
-     font-family:"Avenir Next";
-     color: white;
-    font-weight: 700;
-    font-size: 8vw;
-}
+
 #port1{
  position: absolute;
  display: block;
@@ -227,13 +285,9 @@ text-decoration: none !important;
 text-decoration-line: none;
 }
 #home2{
-   position:absolute;
-  left: 50%;
-  transform: translate(-50%, -50%); 
-   width:50%;
-   height:auto;
-   z-index: 100;
-   top:70vw;
+		position: absolute;
+		top: 25%;
+		right: 100px;
 
 }
 #home3 {
@@ -267,22 +321,33 @@ text-decoration-line: none;
     min-height: 300px;
     max-height: 400px;
 }
-.moviepass{
-  position:absolute;
-  left: 72vw;
-  transform: translate(-50%, -50%); 
-   width:100%;
-   z-index: 90;
-   top: 15%;
-   text-align: left;
+.swm{
+position: absolute;
+top: 80px;
+padding-left: 5%;
+width: 30%;
+z-index: 100;
 }
-.moviepass2{
-  position:absolute;
-  left: 40vw;
-  transform: translate(-50%, -50%); 
-   width:100%;
-   z-index: 90;
-   top: 34%;
+.swm2{
+position: absolute;
+top: 80px;
+padding-left: 38%;
+width: 30%;
+z-index: 100;
+}
+.OAM{
+position: absolute;
+top: 80px;
+padding-left: 5%;
+width: 30%;
+z-index: 100;
+}
+.OAM2{
+position: absolute;
+top: 80px;
+padding-left: 38%;
+width: 30%;
+z-index: 100;
 }
 .adi{
   position: relative;
@@ -845,7 +910,7 @@ top:80vw;
   float: left;
  z-index: 100;
 }
-#pratitle{
+.pratitle{
    position:absolute;
    padding-top: 20%;
    left:50%;
@@ -856,9 +921,9 @@ top:80vw;
    text-align: left;
    margin-left: 3%;
 }
-#prarole{
+.prarole{
    position:absolute;
-   padding-top: 50%;
+   top: 50%;
    left:50%;
   transform: translate(-50%, -50%); 
    width:100%;
@@ -1051,6 +1116,63 @@ a.control_next {
 
 something else
 */
+
+.mojo{
+position: relative;
+padding-top: 40px;
+padding-left: 100px;
+width: 40%;
+z-index: 100;
+}
+
+.newEquipList {
+    position: absolute;
+		height: 250px;
+		margin: 20px auto 20 auto;
+    padding-left: 100px;
+    }
+	.newEquipList-left, .newEquipList-Right {
+    position: fixed;
+    bottom: 5%;
+    text-align: left;
+		}
+	#newEquipHover, #newEquipHover-side {
+		position: relative;
+		padding: 9px;
+		border: 0px dotted #999;
+		background: none;
+		margin-bottom: 20px; }
+	#newEquipHover a, #newEquipHover-side a {
+        font: "Neue Haas Grotesk Display Pro";
+		display: inline;
+		padding: 50px -20px 2px 9px;
+		text-decoration: none;
+		color: black;
+        font-weight: 345;
+		background: none;
+		font-size: 3.5vw;}
+	#newEquipHover a:hover, #newEquipHover-side a:hover {
+		text-decoration: none;}
+	#newEquipHover a span, #newEquipHover-side a span {
+		display: none;}
+	#newEquipHover a:hover span {
+		display: inline;
+		position: fixed;
+		top: 20vh;
+		right: 100px;}
+	#newEquipHover a:hover span img, #newEquipHover-side a:hover span img {
+		width: auto;
+		height: 600px;
+}
+	#newEquipHover-side a:hover span {
+		display: inline;
+		position: absolute;
+		top: 0;
+		left: 236px;
+		padding: 15px 15px 5px 0;}
+		box-shadow: 0px 1px 30px rgba(50, 50, 50, 0.62);}
+
+
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
@@ -1210,12 +1332,10 @@ something else
             height: auto !important;
         }
         #home2{
-        position: absolute;
+        top: 55%;
+        right: 0;
         width: 100%;
-        padding-top: 200%;
-        left: 50%;
-            
-        }
+}
         #home3{
             top: 250px !important;
         }
@@ -1260,7 +1380,7 @@ something else
         font-size: 20vw;
         }
         h2{
-        font-size: 12vw !important;
+        font-size: 6vw !important;
         }
         .container3{
          height:15%; 
@@ -1550,6 +1670,7 @@ something else
     top: 2%;
     z-index: 100;
     color: black;
+    font-size: 70%;
 }
         .sidenav a {
         padding-top: 15%
@@ -1572,6 +1693,56 @@ something else
         .navigation{
         background: white !important;
         }
+        .mojo{
+        position: relative;
+        padding-top: 60px;
+        padding-left: 20px;
+        width: 65%;
+        z-index: 100;
+        }
+        .newEquipList {
+        height: 240px;
+		margin: 20px auto 20px auto;
+        padding-left: 20px;
+        }
+        #newEquipHover a, #newEquipHover-side a {
+        font-size: 21px;
+        font-weight: 350;
+        }
+        li {
+        padding-right: 10px !important;
+        z-index: 100;
+        float:none;
+        }
+        .OAM{
+        width: 95%;
+        }
+        .OAM2{
+        top: 350px;
+        padding-left:5%;
+        width: 100%;
+        }
+        .swm{
+        width: 95%;
+        }
+        .swm2{
+        top: 450px;
+        padding-left:5%;
+        width: 100%;
+        }
+        .slideshow {
+          position: absolute;
+          height:70%;
+          width: 70%;
+          overflow:hidden;
+          top: 60%;}
+        .slideshow__nav--next {
+        right: 10px;
+}
+        .slideshow__nav--prev {
+        left: 0;
+}
+        
 }
 
     

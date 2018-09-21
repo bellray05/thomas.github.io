@@ -8,28 +8,42 @@
   <link rel="stylesheet" href="css/style.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="js/index.js"></script>
-<script>
-function openNav() {
-    document.getElementById("mySidenav").style.width = "100%";
-}
 
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}
-</script>
     <style>
-        .navigation{
-            background-color:white;
-        }
-        .navigation a {
-            color:black;
-        }
-        h4{
-            color:black;
-        }
-        h3{
+        body{
+        background-color: #fff;
+        }        
+        h2{
+         font-family:"Neue Haas Grotesk Display Pro";
          color: black;
+         font-weight: 400;
+         font-size: 2vw;
+         text-align: left;
         }
+       ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+                         }
+
+       li {
+       position:relative;
+       float: right;
+       padding-top: 2%;
+       padding-right: 100px;
+                         }
+
+       li a {
+        display: inline-block;
+        font-family:"Neue Haas Grotesk Display Pro";
+        font-weight: 200;
+        color: black;
+        font-size: 17px;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+                               }
   </style>
 </head>
 
@@ -37,9 +51,9 @@ function closeNav() {
   <html>
 <head>
 </head>
-<ul class="navigation">
-    <li><a href="index.html"><h4>Raybell</h4></a></li>
-  <li><a href="#"><span style="font-size:40px;cursor:pointer; position: fixed; top: 0; width: 100%;" onclick="openNav()"> <div class="line">&#9776;</div></span></a></li>
+<ul>
+  <li><a href="contact.html" >about</a></li>
+  <li><a href="index.html">home</a></li>
 </ul>
 <body>
     <div id="mySidenav" class="sidenav">
