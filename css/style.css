@@ -231,7 +231,7 @@ div#bg-1-5{
 
 h3{
  font:"Neue Haas Grotesk Display Pro";
-font-weight:40;
+font-weight:200;
 font-size: 20px;
 color:black;
 z-index: 200;    
@@ -248,7 +248,7 @@ li a{
         h2{
          font:"Neue Haas Grotesk Display Pro";
          color: black;
-         font-weight: 400;
+         font-weight: 200;
          font-size: 2vw;
          text-align: left;
         }
@@ -1662,7 +1662,7 @@ z-index: 100;
         width: 95%;
         }
         .OAM2{
-        top: 350px;
+        top: 370px;
         padding-left:5%;
         width: 100%;
         }
