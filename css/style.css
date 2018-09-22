@@ -1670,16 +1670,16 @@ z-index: 100;
         width: 95%;
         }
         .swm2{
-        top: 450px;
+        top: 420px;
         padding-left:5%;
         width: 100%;
         }
         .slideshow {
           position: absolute;
-          height:70%;
-          width: 70%;
+          height:80%;
+          width: 80%;
           overflow:hidden;
-          top: 60%;}
+          top: 45%;}
         .slideshow__nav--next {
         right: 10px;
 }
