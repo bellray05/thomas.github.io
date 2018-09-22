@@ -1686,7 +1686,9 @@ z-index: 100;
         .slideshow__nav--prev {
         left: 0;
 }
-        
+        	#newEquipHover a:hover span img, #newEquipHover-side a:hover span img {
+		width: 0;
+		height: 0;
 }
 
     
