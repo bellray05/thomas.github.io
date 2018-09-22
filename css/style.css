@@ -1119,7 +1119,7 @@ something else
 
 .mojo{
 position: relative;
-padding-top: 40px;
+padding-top: 20px;
 padding-left: 100px;
 width: 40%;
 z-index: 100;
@@ -1132,9 +1132,10 @@ z-index: 100;
     padding-left: 100px;
     }
 	.newEquipList-left, .newEquipList-Right {
-    position: fixed;
-    bottom: 5%;
-    text-align: left;
+        position: relative;
+        padding-top: 400px;
+        width: 100%;
+        z-index: 100;
 		}
 	#newEquipHover, #newEquipHover-side {
 		position: relative;
