@@ -230,7 +230,7 @@ div#bg-1-5{
 }
 
 h3{
- font-family:"Neue Haas Grotesk Display Pro";
+ font:"Neue Haas Grotesk Display Pro";
 font-weight:40;
 font-size: 20px;
 color:black;
@@ -238,7 +238,7 @@ z-index: 200;
 }
 li a{
         display: inline-block;
-        font-family:"Neue Haas Grotesk Display Pro";
+        font:"Neue Haas Grotesk Display Pro";
         font-weight: 200;
         color: black;
         font-size: 17px;
@@ -246,7 +246,7 @@ li a{
         text-decoration: none;
 }
         h2{
-         font-family:"Neue Haas Grotesk Display Pro";
+         font:"Neue Haas Grotesk Display Pro";
          color: black;
          font-weight: 400;
          font-size: 2vw;
