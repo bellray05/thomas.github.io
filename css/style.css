@@ -1179,62 +1179,6 @@ z-index: 100;
   .sidenav a {font-size: 18px;}
 } 
 
-.navigation {
-  font-family:"helvetica";
-  list-style: none;
-  margin: 0; 
-  position: fixed;
-  top: 0;
-  z-index: 150;
-  background: black;
-  width: 100%;
-  height: 75px;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  align-items: center;
-  -webkit-flex-flow: row wrap;
-  /*justify-content: flex-end;*/
-}
-
-.navigation li:first-child {
-  margin-right: auto;
-}
-
-.navigation li:nth-child(5) {
-  margin-right: 70px;
-}
-
-.navigation a {
-  text-decoration: none;
-  display: block;
-  padding: 1em;
-}
-
-.navigation a:hover {
-  background: darken(deepskyblue, 2%);
-}
-
-@media all and (max-width: 1200px) {
-  .navigation {
-    justify-content: space-around;
-  }
-}
-
-@media all and (max-width: 1200px) {
-  .navigation {
-    -webkit-flex-flow: column wrap;
-    flex-flow: column wrap;
-    padding: 0;
-  }
-  
-  .navigation a { 
-    text-align: center; 
-    padding: 10px;
-  }
-
   
   .navigation li:last-of-type a {
     border-bottom: none;
@@ -1313,25 +1257,6 @@ z-index: 100;
         top: 200vh;
         }
 
-        .newEquipList-left { 
-            max-width: 100% !important;
-            overflow-x: hidden !important;
-        }
-        #newEquipHover{
-            padding-top: 80px;
-        }
-        #newEquipHover a{
-            font-size: 60px;
-            text-align: center;
-            padding: 0px;
-           
-        }
-        #home{
-            background-image:url("assets/homepage.png") no-repeat;
-            background-color: black !important;
-            max-width: 700px !important;
-            height: auto !important;
-        }
         #home2{
         top: 55%;
         right: 0;
