@@ -236,7 +236,22 @@ font-size: 20px;
 color:black;
 z-index: 200;    
 }
-
+li a{
+        display: inline-block;
+        font-family:"Neue Haas Grotesk Display Pro";
+        font-weight: 200;
+        color: black;
+        font-size: 17px;
+        padding: 14px 16px;
+        text-decoration: none;
+}
+        h2{
+         font-family:"Neue Haas Grotesk Display Pro";
+         color: black;
+         font-weight: 400;
+         font-size: 2vw;
+         text-align: left;
+        }
 #port1{
  position: absolute;
  display: block;
@@ -1116,13 +1131,7 @@ a.control_next {
 
 something else
 */
-        h2{
-         font-family:"Neue Haas Grotesk Display Pro";
-         color: black;
-         font-weight: 400;
-         font-size: 2vw;
-         text-align: left;
-        }
+
 .mojo{
 position: relative;
 padding-top: 20px;
