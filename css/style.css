@@ -246,9 +246,9 @@ li a{
         text-decoration: none;
 }
         h2{
-         font:"Neue Haas Grotesk Display Pro";
+         font-family:"Neue Haas Grotesk Display Pro";
          color: black;
-         font-weight: 200;
+         font-weight: 400;
          font-size: 2vw;
          text-align: left;
         }
@@ -1141,7 +1141,7 @@ z-index: 100;
 }
 
 .newEquipList {
-    position: relative;
+    position: absolute;
 		height: 250px;
 		margin: 20px auto 20 auto;
     padding-left: 100px;
@@ -1194,9 +1194,7 @@ z-index: 100;
   .sidenav a {font-size: 18px;}
 } 
 
-  @media screen and (max-height: 450px)(hover:none) {
-    /* No hover support */
-}
+  
   .navigation li:last-of-type a {
     border-bottom: none;
     }}
@@ -1644,14 +1642,12 @@ z-index: 100;
         z-index: 100;
         }
         .newEquipList {
-        height: 100%;
+        height: 240px;
+		margin: 20px auto 20px auto;
         padding-left: 20px;
         }
         .newEquipList-left, .newEquipList-Right {
-        position: relative;
-        padding-top: 480px;
-        width: 100%;
-        z-index: 100;    
+        padding-top: 460px;    
         }
         #newEquipHover a, #newEquipHover-side a {
         font-size: 21px;
@@ -1690,9 +1686,9 @@ z-index: 100;
         .slideshow__nav--prev {
         left: 0;
 }
-        	#newEquipHover a:hover span img, #newEquipHover-side a:hover span img {
-		width: 0;
-		height: 0;
+       	#newEquipHover a:hover span {
+		display: none;
+        }
 }
 
     
