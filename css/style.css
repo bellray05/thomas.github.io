@@ -1650,8 +1650,8 @@ z-index: 100;
         z-index: 100; 
         }
         #newEquipHover a, #newEquipHover-side a {
-        font-size: 21px;
-        font-weight: 350;
+        font-size: 25px;
+        font-weight: 450;
         }
         li {
         padding-right: 10px !important;
@@ -1676,7 +1676,7 @@ z-index: 100;
         }
         .slideshow {
           position: absolute;
-          height:80%;
+          height:100%;
           width: 80%;
           overflow:hidden;
           top: 55%;}
