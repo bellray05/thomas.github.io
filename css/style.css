@@ -1142,7 +1142,7 @@ z-index: 100;
 
 .newEquipList {
     position: relative;
-    top: 25%;
+    top: 40%;
     padding-left: 90px;
     }
 	.newEquipList-left, .newEquipList-Right {
@@ -1649,7 +1649,7 @@ z-index: 100;
         z-index: 100; 
         }
         #newEquipHover a, #newEquipHover-side a {
-        font-size: 25px;
+        font-size: 6.5vw;
         font-weight: 450;
         }
         li {
