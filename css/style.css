@@ -1271,9 +1271,10 @@ z-index: 100;
         }
 
         #home2{
-        top: 65%;
+        top: 75%;
         right: 0;
         width: 100%;
+        height: 500px;
 }
         #home3{
             top: 250px !important;
@@ -1599,10 +1600,7 @@ z-index: 100;
         h5{
         color: black !important;
         }
-      a{
-        text-decoration: none;
-        color: black;
-        }
+
     .line{
     position:fixed;
     right: 5%;
@@ -1640,12 +1638,13 @@ z-index: 100;
         z-index: 100;
         }
         .newEquipList {
-        height: 100%;
+        top: 600px;
+        height: 0;
         padding-left: 20px;
         }
         .newEquipList-left, .newEquipList-Right {
         position: relative;
-        padding-top: 460px;
+        padding-top: 0px;
         width: 100%;
         z-index: 100; 
         }
